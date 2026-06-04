@@ -1,66 +1,1143 @@
 [
-  {"name": "Marketing Week", "url": "https://www.marketingweek.com", "rss": "https://www.marketingweek.com/feed/", "category": "Brand & Marketing", "priority": "Alta", "lang": "EN"},
-  {"name": "Ninja Marketing", "url": "https://www.ninja.it", "rss": "https://www.ninja.it/feed/", "category": "Brand & Marketing", "priority": "Alta", "lang": "IT"},
-  {"name": "Adweek", "url": "https://www.adweek.com", "rss": "https://www.adweek.com/feed/", "category": "Brand & Marketing", "priority": "Alta", "lang": "EN"},
-  {"name": "Marketing Brew", "url": "https://www.marketingbrew.com", "rss": "https://marketingbrew.com/feed", "category": "Brand & Marketing", "priority": "Alta", "lang": "EN"},
-  {"name": "Brand New (UnderConsideration)", "url": "https://www.underconsideration.com/brandnew", "rss": "https://www.underconsideration.com/brandnew/brandnewfeed.rss", "category": "Brand & Marketing", "priority": "Alta", "lang": "EN"},
-  {"name": "Lenny's Newsletter", "url": "https://www.lennysnewsletter.com", "rss": "https://www.lennysnewsletter.com/feed", "category": "Brand & Marketing", "priority": "Alta", "lang": "EN"},
-  {"name": "Digiday", "url": "https://digiday.com", "rss": "https://digiday.com/feed/", "category": "Media & Piano Media", "priority": "Alta", "lang": "EN"},
-  {"name": "Campaign Live", "url": "https://www.campaignlive.co.uk", "rss": "https://www.campaignlive.co.uk/rss", "category": "Media & Piano Media", "priority": "Alta", "lang": "EN"},
-  {"name": "Econsultancy", "url": "https://econsultancy.com", "rss": "https://feeds.feedburner.com/Econsultancy", "category": "Media & Piano Media", "priority": "Alta", "lang": "EN"},
-  {"name": "The Verge", "url": "https://www.theverge.com", "rss": "https://www.theverge.com/rss/index.xml", "category": "TLC & Tecnologia", "priority": "Alta", "lang": "EN"},
-  {"name": "Wired Italia", "url": "https://www.wired.it", "rss": "https://www.wired.it/rss", "category": "TLC & Tecnologia", "priority": "Alta", "lang": "IT"},
-  {"name": "Il Sole 24 Ore Tech", "url": "https://www.ilsole24ore.com", "rss": "https://www.ilsole24ore.com/rss/tecnologia.xml", "category": "TLC & Tecnologia", "priority": "Alta", "lang": "IT"},
-  {"name": "Corriere Innovazione", "url": "https://www.corriere.it/innovazione", "rss": "https://www.corriere.it/rss/innovazione.xml", "category": "TLC & Tecnologia", "priority": "Media", "lang": "IT"},
-  {"name": "Ipsos Insights", "url": "https://www.ipsos.com", "rss": "https://www.ipsos.com/en/rss.xml", "category": "Consumer Insight & NPS", "priority": "Alta", "lang": "EN"},
-  {"name": "Harvard Business Review", "url": "https://hbr.org", "rss": "https://hbr.org/podcasts/hbr-ideacast.rss", "category": "Consumer Insight & NPS", "priority": "Alta", "lang": "EN"},
-  {"name": "GfK Insights", "url": "https://www.gfk.com/insights", "rss": null, "category": "Consumer Insight & NPS", "priority": "Media", "lang": "EN"},
-  {"name": "Kantar", "url": "https://www.kantar.com/inspiration", "rss": null, "category": "Consumer Insight & NPS", "priority": "Media", "lang": "EN"},
-  {"name": "Social Media Today", "url": "https://www.socialmediatoday.com", "rss": "https://www.socialmediatoday.com/rss.xml", "category": "Social Media & Contenuti", "priority": "Alta", "lang": "EN"},
-  {"name": "Fast Company", "url": "https://www.fastcompany.com", "rss": "https://www.fastcompany.com/latest/rss", "category": "Social Media & Contenuti", "priority": "Alta", "lang": "EN"},
-  {"name": "Creative Boom", "url": "https://www.creativeboom.com", "rss": "https://www.creativeboom.com/feed/", "category": "Creativita e Design", "priority": "Alta", "lang": "EN"},
-  {"name": "MIT Technology Review", "url": "https://www.technologyreview.com", "rss": "https://www.technologyreview.com/feed/", "category": "AI & Innovazione", "priority": "Alta", "lang": "EN"},
-  {"name": "AI4Business", "url": "https://www.ai4business.it", "rss": "https://www.ai4business.it/feed/", "category": "AI & Innovazione", "priority": "Alta", "lang": "IT"},
-  {"name": "Every.to", "url": "https://every.to", "rss": "https://every.to/feed", "category": "AI & Innovazione", "priority": "Alta", "lang": "EN"},
-  {"name": "Not Boring (Packy McCormick)", "url": "https://www.notboring.co", "rss": "https://www.notboring.co/feed", "category": "AI & Innovazione", "priority": "Alta", "lang": "EN"},
-  {"name": "Interconnected", "url": "https://interconnect.substack.com", "rss": "https://interconnect.substack.com/feed", "category": "AI & Innovazione", "priority": "Media", "lang": "EN"},
-  {"name": "Attache Dispatches", "url": "https://attache.substack.com", "rss": "https://attache.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Bolena (Evastaizitta)", "url": "https://bolena.substack.com", "rss": "https://bolena.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Che c'e per cena", "url": "https://checepercena.substack.com", "rss": "https://checepercena.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "chissenefrega (Erica Cariello)", "url": "https://chissenefrega.substack.com", "rss": "https://chissenefrega.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Coco's Kitchen", "url": "https://cocoskitchen.substack.com", "rss": "https://cocoskitchen.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Cosa Sposta (Giulio Michelon)", "url": "https://cosasposta.substack.com", "rss": "https://cosasposta.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Da Zero a (S)brand", "url": "https://dazeroas brand.substack.com", "rss": null, "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Dario Vignali", "url": "https://dariovignali.substack.com", "rss": "https://dariovignali.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "DAS Z LETTER (Chris Z)", "url": "https://dasz.substack.com", "rss": "https://dasz.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Digital Journalism (Francesco Oggiano)", "url": "https://oggiano.substack.com", "rss": "https://oggiano.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Ellissi (Valerio Bassan)", "url": "https://ellissi.substack.com", "rss": "https://ellissi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Embedded (Kate Lindsay)", "url": "https://embedded.substack.com", "rss": "https://embedded.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Factanza", "url": "https://factanza.substack.com", "rss": "https://factanza.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Francesco Puppi", "url": "https://francescopuppi.substack.com", "rss": "https://francescopuppi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Frank Merenda", "url": "https://frankmerenda.substack.com", "rss": "https://frankmerenda.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Hands On", "url": "https://handson.substack.com", "rss": "https://handson.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Il venerdi di minimarketing", "url": "https://minimarketing.substack.com", "rss": "https://minimarketing.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Insieme Universo", "url": "https://insiemeuniverso.substack.com", "rss": "https://insiemeuniverso.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Kilian Jornet", "url": "https://kilianjornet.substack.com", "rss": "https://kilianjornet.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Link in Bio", "url": "https://linkinbio.substack.com", "rss": "https://linkinbio.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Loading...", "url": "https://loading.substack.com", "rss": "https://loading.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "MKT1 Newsletter (Emily Kramer)", "url": "https://mkt1.substack.com", "rss": "https://mkt1.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Mountain Athlete Journal", "url": "https://mountainathlete.substack.com", "rss": "https://mountainathlete.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "The New Yorker", "url": "https://www.newyorker.com", "rss": "https://www.newyorker.com/feed/everything", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Percorsi", "url": "https://percorsi.substack.com", "rss": "https://percorsi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Polpette, la vanzletter", "url": "https://polpette.substack.com", "rss": "https://polpette.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Refactoring (Luca Rossi)", "url": "https://refactoring.fm", "rss": "https://refactoring.fm/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Saro Brevi", "url": "https://sarobrevi.substack.com", "rss": "https://sarobrevi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Scrolling Infinito", "url": "https://scrollinginfinito.substack.com", "rss": "https://scrollinginfinito.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Sebastian Barros Newsletter", "url": "https://sebastianbarros.substack.com", "rss": "https://sebastianbarros.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "Technicismi (Riccardo Bassetto)", "url": "https://technicismi.substack.com", "rss": "https://technicismi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Vincos Newsletter (Vincenzo Cosenza)", "url": "https://vincos.substack.com", "rss": "https://vincos.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "The Week in Italian Startups", "url": "https://italianstartups.substack.com", "rss": "https://italianstartups.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Sogni Americani", "url": "https://sogniamericani.substack.com", "rss": "https://sogniamericani.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "solo storie tristi", "url": "https://solostorietristi.substack.com", "rss": "https://solostorietristi.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "The Substack Post", "url": "https://substack.substack.com", "rss": "https://substack.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "EN"},
-  {"name": "TRUE COMMITMENT", "url": "https://truecommitment.substack.com", "rss": "https://truecommitment.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "Una goccia", "url": "https://unagoccia.substack.com", "rss": "https://unagoccia.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"},
-  {"name": "What The Zez", "url": "https://whatthezez.substack.com", "rss": "https://whatthezez.substack.com/feed", "category": "Le Mie Newsletter", "priority": "Alta", "lang": "IT"}
+  {
+    "name": "Medallia Blog",
+    "url": "https://www.medallia.com/blog/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": "https://www.medallia.com/blog/feed/"
+  },
+  {
+    "name": "Kantar Insights",
+    "url": "https://www.kantar.com/inspiration",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": "https://www.kantar.com/inspiration/rss"
+  },
+  {
+    "name": "WARC",
+    "url": "https://www.warc.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": "https://feeds.feedburner.com/warc-news"
+  },
+  {
+    "name": "NielsenIQ (NIQ) — The Full View",
+    "url": "https://nielseniq.com/global/en/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Nielsen — Audience Is Everything",
+    "url": "https://www.nielsen.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Euromonitor International — Consumer Trends",
+    "url": "https://www.euromonitor.com/insights/consumer-trends",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "PwC — Voice of the Consumer Survey",
+    "url": "https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey/2024.html",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Loyalty360",
+    "url": "https://loyalty360.org/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "CXL (Conversion XL) Institute Blog",
+    "url": "https://cxl.com/blog/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Econsultancy",
+    "url": "https://econsultancy.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Zendesk Blog — Customer Experience",
+    "url": "https://www.zendesk.com/blog/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Customer Experience Italia",
+    "url": "https://customerexperienceitalia.it/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Temkin Group / Experience Matters Blog",
+    "url": "https://experiencematters.wordpress.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Appinio Blog — Market Research",
+    "url": "https://www.appinio.com/en/blog/market-research/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "QuestionPro Blog (IT)",
+    "url": "https://www.questionpro.com/blog/it/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Statista — Insights",
+    "url": "https://www.statista.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Digiday",
+    "url": "https://digiday.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": "https://digiday.com/feed/"
+  },
+  {
+    "name": "The Drum",
+    "url": "https://www.thedrum.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": "https://www.thedrum.com/rss"
+  },
+  {
+    "name": "Meltwater Blog",
+    "url": "https://www.meltwater.com/en/blog/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Brandwatch Blog",
+    "url": "https://www.brandwatch.com/blog/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Digital360 — Customer Retention",
+    "url": "https://www.digital360.it/blog-connect/customer-retention-cose-e-come-farla-nel-modo-giusto",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "SEOZoom Blog — Consumer & Marketing",
+    "url": "https://www.seozoom.it/customer-retention/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Harvard Business School Online — Customer Experience Management",
+    "url": "https://online.hbs.edu/blog/post/customer-experience-management",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Morning Brew — Marketing",
+    "url": "https://www.morningbrew.com/marketing",
+    "category": "Consumer Insight & NPS",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "ServiceNow Blog — Customer Retention Statistics",
+    "url": "https://www.servicenow.com/it/products/customer-service-management/customer-retention-statistics.html",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Digital Experience Live",
+    "url": "https://www.digitalexperience.live/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "AMA (American Marketing Association) — Customer Experience",
+    "url": "https://www.ama.org/topics/customer-experience/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "SecretKey.it Blog — Customer Retention",
+    "url": "https://www.secretkey.it/blog/customer-retention/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Marketresearch.com — Euromonitor Digital Consumer Survey",
+    "url": "https://www.marketresearch.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "QSR Industries — Consumer Surveys",
+    "url": "https://qsr.industries/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "AI Magazine — Customer Experience",
+    "url": "https://aimagazine.com/",
+    "category": "Consumer Insight & NPS",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Digiday",
+    "url": "https://digiday.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": "https://digiday.com/feed/"
+  },
+  {
+    "name": "The Drum",
+    "url": "https://www.thedrum.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": "https://www.thedrum.com/rss"
+  },
+  {
+    "name": "Econsultancy",
+    "url": "https://econsultancy.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Brandwatch Blog",
+    "url": "https://www.brandwatch.com/blog/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Meltwater Blog — Social Media",
+    "url": "https://www.meltwater.com/en/blog/top-social-listening-tools",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Digital Marketing Community — Social Media Reports",
+    "url": "https://www.digitalmarketingcommunity.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Creators.meta.com (Meta for Creators)",
+    "url": "https://creators.meta.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "YouTube for Creators",
+    "url": "https://www.youtube.com/c/youtubecreators",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Morning Brew — Marketing Newsletter",
+    "url": "https://www.morningbrew.com/marketing",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "WebsiteBuilderExpert — Social Media Newsletters Guide",
+    "url": "https://www.websitebuilderexpert.com/news/social-media-newsletters/",
+    "category": "Social Media & Contenuti",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Socialnative Blog",
+    "url": "https://www.socialnative.com/articles/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Creator.co Blog",
+    "url": "https://www.creator.co/blog/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Instagram for Creators",
+    "url": "https://creators.instagram.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Google for Creators",
+    "url": "https://creators.google/en-us/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Hootsuite Blog",
+    "url": "https://blog.hootsuite.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": "https://blog.hootsuite.com/feed/"
+  },
+  {
+    "name": "Buffer Blog",
+    "url": "https://buffer.com/resources/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": "https://buffer.com/resources/rss/"
+  },
+  {
+    "name": "Milesocial — Social Media Reports",
+    "url": "https://milesocial.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Focus Marketing & PR Blog",
+    "url": "https://www.focusmarketingandpr.com/blog/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Wired — Social & Tech Culture",
+    "url": "https://www.wired.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Sifted.eu — European Tech & Media",
+    "url": "https://sifted.eu/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Agenda Digitale — Social Media & Digital",
+    "url": "https://www.agendadigitale.eu/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Key4Biz — Media & Digital",
+    "url": "https://www.key4biz.it/",
+    "category": "Social Media & Contenuti",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "American Influencer Council — Creator Trend Report",
+    "url": "https://creatorswithinfluence.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Greenlitcontent — Social Media Strategy Guide",
+    "url": "https://greenlitcontent.com/resources/social-media-strategy",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "ZDNET — AI & Social Media",
+    "url": "https://www.zdnet.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Sprinklr Blog — Social Media CX",
+    "url": "https://www.sprinklr.com/blog/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Lenny's Newsletter",
+    "url": "https://www.lennysnewsletter.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Voxburner (Youth Lab) — Youth Trends",
+    "url": "https://www.voxburner.com/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "IAB Europe — Digital Advertising",
+    "url": "https://iabeurope.eu/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Auditel — Media Measurement (IT)",
+    "url": "https://www.auditel.it/",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Istituto Nazionale di Statistica (ISTAT) — ICT e Social",
+    "url": "https://www.istat.it/it/archivio/ict",
+    "category": "Social Media & Contenuti",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "The Branding Journal",
+    "url": "https://www.thebrandingjournal.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": "https://www.thebrandingjournal.com/feed/"
+  },
+  {
+    "name": "BP&O — Branding, Packaging and Opinion",
+    "url": "https://bpando.org/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "World Brand Design Society",
+    "url": "https://worldbranddesign.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Rebrand Gallery",
+    "url": "https://www.rebrand.gallery/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Awwwards",
+    "url": "https://www.awwwards.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Dribbble",
+    "url": "https://dribbble.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Inspiration Grid",
+    "url": "https://theinspirationgrid.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Designspiration",
+    "url": "https://www.designspiration.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Creative Bloq",
+    "url": "https://www.creativebloq.com/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Muzli (by InVision) — Design Inspiration",
+    "url": "https://muz.li/",
+    "category": "Creatività & Design",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Interbrand — Brand Valuation & Insights",
+    "url": "https://interbrand.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Landor — Brand Strategy Blog",
+    "url": "https://landor.com/thinking/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Wired — Design Section",
+    "url": "https://www.wired.com/category/design/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "The FWA (Favourite Website Awards)",
+    "url": "https://thefwa.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Fonts In Use",
+    "url": "https://fontsinuse.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "I Love Typography",
+    "url": "https://ilovetypography.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Vecteezy Blog — Graphic Design Trends",
+    "url": "https://www.vecteezy.com/blog/trending/graphic-design-trends-for-2024",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Canva Design Blog",
+    "url": "https://www.canva.com/learn/design/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Art Direction Substack",
+    "url": "https://artdirection.substack.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Howik — Graphic Design Blogs",
+    "url": "https://howik.com/best-graphic-design-blogs-to-follow-in-2024",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Hugeicons",
+    "url": "https://hugeicons.com/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Uncut.wtf — Contemporary Fonts",
+    "url": "https://uncut.wtf/",
+    "category": "Creatività & Design",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "curations.supply — Design Library",
+    "url": "https://curations.supply/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "landing.love — Landing Page Inspiration",
+    "url": "https://landing.love/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "saaspo.com — SaaS Website Gallery",
+    "url": "https://saaspo.com/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "component.gallery — Design Systems",
+    "url": "https://component.gallery/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "60fps.design — App UX",
+    "url": "https://60fps.design/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Freepik — AI & Stock Creative",
+    "url": "https://www.freepik.com/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Designspiration — Color Moods",
+    "url": "https://www.designspiration.com/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "MyFonts — Typography",
+    "url": "https://www.myfonts.com/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "The TechEdvocate — Design Blogs 2024",
+    "url": "https://www.thetechedvocate.org/the-top-20-best-graphic-design-blogs-in-2024-for-creative-inspiration/",
+    "category": "Creatività & Design",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "The Rundown AI",
+    "url": "https://www.rundown.ai/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Anthropic — Research & Blog",
+    "url": "https://www.anthropic.com/research",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/blog/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://ai.google/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Wired — AI Section",
+    "url": "https://www.wired.com/tag/artificial-intelligence/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "VentureBeat — AI",
+    "url": "https://venturebeat.com/ai/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": "https://venturebeat.com/feed/"
+  },
+  {
+    "name": "ZDNET — AI News",
+    "url": "https://www.zdnet.com/topic/artificial-intelligence/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "AI Magazine",
+    "url": "https://aimagazine.com/",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Morning Brew — AI Section",
+    "url": "https://www.morningbrew.com/topic/ai",
+    "category": "AI & Innovazione",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "The AI Rundown",
+    "url": "https://theairundown.com/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Approachable AI — Top AI Newsletters",
+    "url": "https://approachableai.com/top-ai-newsletters/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "DigitalOcean — AI Newsletters",
+    "url": "https://www.digitalocean.com/resources/articles/ai-newsletters",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Zapier Blog — AI Tools",
+    "url": "https://zapier.com/blog/best-ai-newsletters/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Data Science Dojo — AI Blog",
+    "url": "https://datasciencedojo.com/blog/best-ai-newsletters-of-2024/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "MIT AI Risk Initiative",
+    "url": "https://airisk.mit.edu/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Sifted.eu — AI & Innovation",
+    "url": "https://sifted.eu/sector/deeptech/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "AI Brews",
+    "url": "https://aibrews.com/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "DeepAI",
+    "url": "https://deepai.org/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "OECD — AI Policy Observatory",
+    "url": "https://oecd.ai/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "AI Act Observatory (Italia)",
+    "url": "https://www.agendadigitale.eu/tag/ai-act/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Corriere Innovazione",
+    "url": "https://corriereinnovazione.corriere.it/",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Il Sole 24 Ore — Tecnologia & AI",
+    "url": "https://www.ilsole24ore.com/motori/tecnologia",
+    "category": "AI & Innovazione",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Intereconomics — AI & Competition",
+    "url": "https://www.intereconomics.eu/",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Blog 9CV9 — Best AI Newsletters",
+    "url": "https://blog.9cv9.com/top-9-best-ai-newsletters-you-need-to-follow-and-read-in-2024/",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Google Cloud — Generative AI Use Cases",
+    "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "ResearchGate — Generative AI & Marketing",
+    "url": "https://www.researchgate.net/publication/399083598",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Springer — Generative AI Business",
+    "url": "https://link.springer.com/article/10.1007/s11846-023-00696-z",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": "https://aibusiness.com/rss"
+  },
+  {
+    "name": "EML Monster — Best AI Newsletters 2024",
+    "url": "https://eml.monster/blog/inbox-zero/best-ai-newsletters-of-2024",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "ISTAT — ICT e Innovazione (IT)",
+    "url": "https://www.istat.it/it/archivio/ict",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "OpenAI Research Page",
+    "url": "https://openai.com/research/",
+    "category": "AI & Innovazione",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Il Post",
+    "url": "https://ilpost.substack.com",
+    "rss": "https://ilpost.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Slow News",
+    "url": "https://slownews.substack.com",
+    "rss": "https://slownews.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "L'Aggiornamento",
+    "url": "https://laggiornamento.substack.com",
+    "rss": "https://laggiornamento.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Morning Future",
+    "url": "https://morningfuture.substack.com",
+    "rss": "https://morningfuture.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Undici",
+    "url": "https://undici.substack.com",
+    "rss": "https://undici.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Digitalia",
+    "url": "https://digitalia.substack.com",
+    "rss": "https://digitalia.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Storie di Startup",
+    "url": "https://storiediStartup.substack.com",
+    "rss": "https://storiediStartup.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "NovaBriefing",
+    "url": "https://novabriefing.substack.com",
+    "rss": "https://novabriefing.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Limes - Rivista Italiana di Geopolitica",
+    "url": "https://limes.substack.com",
+    "rss": "https://limes.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "AI Explained",
+    "url": "https://aiexplained.substack.com",
+    "rss": "https://aiexplained.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Il Tascabile",
+    "url": "https://iltascabile.substack.com",
+    "rss": "https://iltascabile.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "The Italian Letter",
+    "url": "https://theitalianletter.substack.com",
+    "rss": "https://theitalianletter.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Banzai Media",
+    "url": "https://banzaimedia.substack.com",
+    "rss": "https://banzaimedia.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Sentieri Digitali",
+    "url": "https://sentieridigitali.substack.com",
+    "rss": "https://sentieridigitali.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Punti di Vista",
+    "url": "https://puntidivista.substack.com",
+    "rss": "https://puntidivista.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "L'Autore",
+    "url": "https://lautore.substack.com",
+    "rss": "https://lautore.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Caos Calmo",
+    "url": "https://caoscalmo.substack.com",
+    "rss": "https://caoscalmo.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Innovazione e Media",
+    "url": "https://innovazionememedia.substack.com",
+    "rss": "https://innovazionememedia.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Pasquale Borriello",
+    "url": "https://pasqualeborriello.substack.com",
+    "rss": "https://pasqualeborriello.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Curioos Digest",
+    "url": "https://curioos.substack.com",
+    "rss": "https://curioos.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Creatività e Brand",
+    "url": "https://creativitaebrand.substack.com",
+    "rss": "https://creativitaebrand.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "The CMO Brief",
+    "url": "https://thecmobrief.substack.com",
+    "rss": "https://thecmobrief.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Brand Finance",
+    "url": "https://brandfinance.substack.com",
+    "rss": "https://brandfinance.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Media Mente",
+    "url": "https://mediamente.substack.com",
+    "rss": "https://mediamente.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Riccardo Pirrone",
+    "url": "https://riccardopirrone.substack.com",
+    "rss": "https://riccardopirrone.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Futuro Prossimo",
+    "url": "https://futuroprossimo.substack.com",
+    "rss": "https://futuroprossimo.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "AI Weekly Italia",
+    "url": "https://aiweeklyitalia.substack.com",
+    "rss": "https://aiweeklyitalia.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Wired Italia Newsletter",
+    "url": "https://wired.substack.com",
+    "rss": "https://wired.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Think with Google Italia",
+    "url": "https://thinkwithgoogleit.substack.com",
+    "rss": "https://thinkwithgoogleit.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Sebastian Barros Newsletter",
+    "url": "https://sebastianbarros.substack.com",
+    "rss": "https://sebastianbarros.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Technicismi",
+    "url": "https://technicismi.substack.com",
+    "rss": "https://technicismi.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Vincos Newsletter",
+    "url": "https://vincos.substack.com",
+    "rss": "https://vincos.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "The Week in Italian Startups",
+    "url": "https://italianstartups.substack.com",
+    "rss": "https://italianstartups.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Sogni Americani",
+    "url": "https://sogniamericani.substack.com",
+    "rss": "https://sogniamericani.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Solo Storie Tristi",
+    "url": "https://solostorietristi.substack.com",
+    "rss": "https://solostorietristi.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "The Substack Post",
+    "url": "https://substack.substack.com",
+    "rss": "https://substack.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "TRUE COMMITMENT",
+    "url": "https://truecommitment.substack.com",
+    "rss": "https://truecommitment.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "Una Goccia",
+    "url": "https://unagoccia.substack.com",
+    "rss": "https://unagoccia.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  },
+  {
+    "name": "What The Zez",
+    "url": "https://whatthezez.substack.com",
+    "rss": "https://whatthezez.substack.com/feed",
+    "category": "Newsletter & Substack",
+    "priority": "Alta"
+  }
 ]
