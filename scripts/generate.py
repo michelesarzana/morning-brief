@@ -84,7 +84,7 @@ COMMON_HEAD = '''<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{page_title}</title>
+<title>__TITLE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -259,7 +259,7 @@ def render_sources(sources):
 def build_index(articles, sources, today, archive_path="archive/index.html"):
     it_today  = it_date(today)
     iso_today = today.strftime("%Y-%m-%d")
-    page = COMMON_HEAD.format(page_title=f"Morning Brief — {it_today}")
+    page = COMMON_HEAD.replace("__TITLE__", f"Morning Brief — {it_today}")
     page += render_header(archive_link=archive_path)
     page += f'''
 <main class="container">
@@ -286,7 +286,7 @@ def build_index(articles, sources, today, archive_path="archive/index.html"):
 
 def build_archive_day(articles, sources, today):
     it_today = it_date(today)
-    page = COMMON_HEAD.format(page_title=f"Morning Brief — {it_today}")
+    page = COMMON_HEAD.replace("__TITLE__", f"Morning Brief — {it_today}")
     page += render_header(archive_link="../archive/index.html", home_link="../index.html")
     page += f'''
 <main class="container">
@@ -326,7 +326,7 @@ def update_archive_index(today):
         except:
             label = iso
         items_html += f'<a class="archive-item" href="{iso}.html" data-date="{iso}"><span class="ai-icon">📄</span><span class="ai-date">{label}</span><span style="color:var(--text-muted);font-size:.8rem">{iso}</span></a>\n'
-    page = COMMON_HEAD.format(page_title="Morning Brief — Archivio")
+    page = COMMON_HEAD.replace("__TITLE__", "Morning Brief — Archivio")
     page += render_header(archive_link="index.html", home_link="../index.html")
     page += f'''
 <main class="container">
