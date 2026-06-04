@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Morning Brief — genera index.html + archivio giornaliero (v2)."""
 
-import json, os, sys, datetime, re
+import json, os, sys, datetime, re, random
 from pathlib import Path
 
 try:
@@ -72,7 +72,11 @@ def fetch_all(sources, today):
     newsletters = []
     yesterday   = today - datetime.timedelta(days=1)
 
-    for src in sources:
+    # Shuffle so the summary doesn't always show the same sources
+    sources_shuffled = list(sources)
+    random.shuffle(sources_shuffled)
+
+    for src in sources_shuffled:
         rss = src.get("rss")
         if not rss:
             continue
@@ -294,8 +298,29 @@ def render_hero(today, n_sources, n_articles, n_newsletters):
 </section>'''
 
 def render_summary(articles):
-    # Top SUMMARY_TOP by priority then first-come
-    top = [a for a in articles if a["priority"] == "Alta"][:SUMMARY_TOP]
+    # Pick SUMMARY_TOP articles spread across different sources and categories
+    seen_sources = set()
+    seen_cats    = set()
+    top = []
+
+    # First pass: one per category
+    for a in articles:
+        if len(top) >= SUMMARY_TOP:
+            break
+        if a["category"] not in seen_cats and a["source"] not in seen_sources:
+            top.append(a)
+            seen_sources.add(a["source"])
+            seen_cats.add(a["category"])
+
+    # Second pass: fill remaining slots with any unseen source
+    for a in articles:
+        if len(top) >= SUMMARY_TOP:
+            break
+        if a["source"] not in seen_sources:
+            top.append(a)
+            seen_sources.add(a["source"])
+
+    # Fallback: just take first N
     if not top:
         top = articles[:SUMMARY_TOP]
     if not top:
