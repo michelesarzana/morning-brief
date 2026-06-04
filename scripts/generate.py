@@ -231,6 +231,23 @@ a:hover{text-decoration:underline}
 .site-footer p{font-size:.8rem;color:#888}
 .site-footer a{color:var(--yellow);font-size:.8rem}
 
+/* ── Sources full section ── */
+.sources-full-section{margin-bottom:2.5rem}
+.flt-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem}
+.flt-btn{background:var(--bg-card);border:1px solid var(--border);border-radius:20px;padding:.35rem .9rem;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .15s}
+.flt-btn:hover{border-color:var(--yellow);color:var(--text)}
+.flt-btn.active{background:var(--yellow);border-color:var(--yellow);color:var(--dark)}
+.flt-count{font-size:.7rem;opacity:.75}
+.src-table{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.src-row{display:grid;grid-template-columns:1fr auto;gap:1rem;padding:.75rem 1.2rem;border-bottom:1px solid var(--border);align-items:center}
+.src-row:last-child{border-bottom:none}
+.src-row:hover{background:rgba(0,0,0,.02)}
+.src-info{display:flex;align-items:center;gap:.5rem}
+.src-name{font-size:.85rem;font-weight:600;color:var(--text)}
+.src-name:hover{color:var(--yellow)}
+.src-rss{font-size:.62rem;font-weight:700;background:var(--yellow);color:var(--dark);border-radius:3px;padding:.1rem .4rem;letter-spacing:.04em}
+.src-cat{font-size:.75rem;color:var(--muted);white-space:nowrap}
+
 /* ── Responsive ── */
 @media(max-width:1100px){.page-grid{grid-template-columns:1fr}}
 @media(max-width:700px){
@@ -409,22 +426,74 @@ def render_substack(newsletters):
   <div class="sub-grid">{cards}</div>
 </section>'''
 
+def render_sources_page(sources):
+    """Full filterable sources section — all categories, all sources."""
+    from collections import defaultdict
+    grouped = defaultdict(list)
+    for s in sorted(sources, key=lambda x: x["name"].lower()):
+        grouped[s["category"]].append(s)
+
+    # Filter buttons
+    cats = sorted(grouped.keys())
+    btn_all = '<button class="flt-btn active" data-cat="all">Tutte</button>'
+    btns = "".join(
+        f'<button class="flt-btn" data-cat="{c}">{CATEGORY_EMOJI.get(c,"📰")} {c} <span class="flt-count">{len(grouped[c])}</span></button>'
+        for c in cats
+    )
+
+    # Source rows
+    rows = ""
+    for cat in cats:
+        emoji = CATEGORY_EMOJI.get(cat, "📰")
+        for s in grouped[cat]:
+            rss_badge = '<span class="src-rss">RSS</span>' if s.get("rss") else ""
+            rows += f'''<div class="src-row" data-cat="{cat}">
+  <div class="src-info">
+    <a class="src-name" href="{s["url"]}" target="_blank" rel="noopener">{s["name"]}</a>
+    {rss_badge}
+  </div>
+  <div class="src-cat">{emoji} {cat}</div>
+</div>'''
+
+    script = '''<script>
+(function(){
+  var btns = document.querySelectorAll(".flt-btn");
+  var rows = document.querySelectorAll(".src-row");
+  btns.forEach(function(btn){
+    btn.addEventListener("click", function(){
+      btns.forEach(function(b){ b.classList.remove("active"); });
+      btn.classList.add("active");
+      var cat = btn.getAttribute("data-cat");
+      rows.forEach(function(r){
+        r.style.display = (cat === "all" || r.getAttribute("data-cat") === cat) ? "" : "none";
+      });
+    });
+  });
+})();
+</script>'''
+
+    return f'''<section class="sources-full-section">
+  <div class="section-title"><span>📚 Tutte le fonti monitorate ({len(sources)})</span></div>
+  <div class="flt-bar">{btn_all}{btns}</div>
+  <div class="src-table">{rows}</div>
+  {script}
+</section>'''
+
 def render_sidebar(sources, today, archive_link="archive/index.html"):
-    # Sources grouped by category
     from collections import defaultdict
     grouped = defaultdict(list)
     for s in sources:
         grouped[s["category"]].append(s)
 
     items = ""
-    for cat, srcs in grouped.items():
+    for cat in sorted(grouped.keys()):
         emoji = CATEGORY_EMOJI.get(cat, "📰")
-        for s in srcs[:5]:  # max 5 per cat in sidebar
+        for s in grouped[cat][:4]:
             items += f'<li><a href="{s["url"]}" target="_blank" rel="noopener">{s["name"]}</a><br><span class="sl-cat">{emoji} {cat}</span></li>'
 
     return f'''<aside class="sidebar">
   <div class="sidebar-block">
-    <div class="sb-title">📚 Fonti monitorate ({len(sources)})</div>
+    <div class="sb-title">📚 Fonti ({len(sources)}) <a href="#sources-section" style="font-size:.7rem;font-weight:600;float:right;color:var(--yellow)">Vedi tutte →</a></div>
     <ul class="sources-list">{items}</ul>
   </div>
 </aside>'''
@@ -444,6 +513,7 @@ def build_index(articles, newsletters, sources, today):
       {render_summary(articles)}
       {render_categories(articles)}
       {render_substack(newsletters)}
+      <div id="sources-section">{render_sources_page(sources)}</div>
     </main>
     {render_sidebar(sources, today)}
   </div>
@@ -468,6 +538,7 @@ def build_archive_day(articles, newsletters, sources, today):
       {render_summary(articles)}
       {render_categories(articles)}
       {render_substack(newsletters)}
+      <div id="sources-section">{render_sources_page(sources)}</div>
     </main>
     {render_sidebar(sources, today, archive_link="../archive/index.html")}
   </div>
