@@ -5,144 +5,167 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Morning Brief — Archivio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root {
-  --accent-yellow: #FDC400;
-  --accent-red:    #E60000;
-  --bg:       #f7f8fa;
-  --bg-card:  #ffffff;
-  --bg-header:#ffffff;
-  --border:   #e2e5ea;
-  --text:     #1a1d23;
-  --text-muted:#6b7280;
-  --shadow:   0 1px 4px rgba(0,0,0,.08);
+:root{
+  --yellow:#FDC400;--red:#E60000;--dark:#181717;
+  --bg:#f0f2f5;--bg-card:#ffffff;--bg-header:#181717;
+  --border:#e2e5ea;--text:#1a1d23;--muted:#6b7280;
+  --shadow:0 2px 8px rgba(0,0,0,.08);
+  --radius:12px;
 }
-[data-theme="dark"] {
-  --bg:       #0f1117;
-  --bg-card:  #1a1d23;
-  --bg-header:#12151c;
-  --border:   #2a2d35;
-  --text:     #e8eaf0;
-  --text-muted:#9ca3af;
-  --shadow:   0 1px 6px rgba(0,0,0,.4);
+[data-theme="dark"]{
+  --bg:#0d0f14;--bg-card:#1a1d23;--bg-header:#0d0f14;
+  --border:#2a2d35;--text:#e8eaf0;--muted:#9ca3af;
+  --shadow:0 2px 8px rgba(0,0,0,.4);
 }
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);transition:background .25s,color .25s;min-height:100vh}
-a{color:var(--accent-yellow);text-decoration:none}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+a{color:var(--yellow);text-decoration:none}
 a:hover{text-decoration:underline}
 
-/* ── Header ── */
-.site-header{background:var(--bg-header);border-bottom:2px solid var(--accent-yellow);padding:0 1.5rem;position:sticky;top:0;z-index:100;box-shadow:var(--shadow)}
-.header-inner{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;height:60px;gap:1rem}
-.logo{font-size:1.3rem;font-weight:700;letter-spacing:-.02em;display:flex;align-items:center;gap:.4rem}
-.logo span.year{font-size:.8rem;font-weight:400;color:var(--text-muted);margin-left:.3rem}
-.header-nav{display:flex;align-items:center;gap:1.2rem;font-size:.9rem}
-.header-nav a{color:var(--text-muted);font-weight:500;transition:color .2s}
-.header-nav a:hover{color:var(--accent-yellow);text-decoration:none}
-.theme-toggle{background:none;border:1px solid var(--border);border-radius:8px;width:36px;height:36px;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center;transition:border-color .2s,background .2s;flex-shrink:0}
-.theme-toggle:hover{border-color:var(--accent-yellow);background:var(--bg-card)}
-
 /* ── Layout ── */
-.container{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
-.date-bar{display:flex;align-items:baseline;gap:.7rem;margin-bottom:2rem;flex-wrap:wrap}
-.date-label{font-size:1.5rem;font-weight:700;text-transform:capitalize}
-.date-badge{background:var(--accent-yellow);color:#1a1d23;font-size:.75rem;font-weight:700;padding:.2rem .6rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
-.section-title{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:1rem;padding-bottom:.4rem;border-bottom:2px solid var(--accent-yellow);display:inline-flex;align-items:center;gap:.4rem}
+.wrap{max-width:1400px;margin:0 auto;padding:0 2rem}
 
-/* ── Article cards ── */
-.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.25rem;margin-bottom:3rem}
-.card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 1rem;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;gap:.6rem}
-.card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
-.card-cat{font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--accent-red)}
-.card-title{font-size:.95rem;font-weight:600;line-height:1.4;color:var(--text)}
-.card-source{font-size:.75rem;color:var(--text-muted);font-weight:500}
-.card-excerpt{font-size:.82rem;color:var(--text-muted);line-height:1.55;flex:1}
-.card-link{font-size:.8rem;font-weight:600;color:var(--accent-yellow);align-self:flex-start;margin-top:.4rem}
-.card-link:hover{text-decoration:none;opacity:.8}
+/* ── Header ── */
+.site-header{background:var(--bg-header);border-bottom:3px solid var(--yellow);padding:1rem 0;position:sticky;top:0;z-index:100}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.logo{display:flex;align-items:center;gap:.6rem}
+.logo-icon{font-size:1.6rem}
+.logo-text{font-size:1.25rem;font-weight:800;color:#fff;letter-spacing:-.02em}
+.logo-text span{color:var(--yellow)}
+.nav-links{display:flex;gap:1.5rem;align-items:center}
+.nav-links a{color:#ccc;font-size:.85rem;font-weight:500}
+.nav-links a:hover{color:var(--yellow);text-decoration:none}
+#theme-toggle{background:rgba(255,255,255,.1);border:none;color:#ccc;padding:.35rem .7rem;border-radius:6px;cursor:pointer;font-size:.9rem}
 
-/* ── Empty state ── */
-.empty-state{text-align:center;padding:4rem 2rem;color:var(--text-muted)}
-.empty-state .icon{font-size:3rem;margin-bottom:1rem}
-.empty-state p{font-size:.95rem;line-height:1.6;max-width:400px;margin:auto}
+/* ── Hero / Stats ── */
+.hero{background:var(--bg-header);padding:2.5rem 0 3rem;border-bottom:1px solid rgba(255,255,255,.05)}
+.hero-date{font-size:.9rem;color:var(--yellow);font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.hero-title{font-size:2.4rem;font-weight:800;color:#fff;margin-bottom:1.5rem;line-height:1.1}
+.stats-row{display:flex;gap:1.5rem;flex-wrap:wrap}
+.stat-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:1rem 1.4rem;min-width:140px}
+.stat-num{font-size:2rem;font-weight:800;color:var(--yellow);line-height:1}
+.stat-label{font-size:.78rem;color:#aaa;margin-top:.3rem;text-transform:uppercase;letter-spacing:.05em}
 
-/* ── Sources table ── */
-.sources-section{margin-bottom:3rem}
-.sources-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem}
-.source-group{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:1rem}
-.source-group-title{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;margin-bottom:.7rem;color:var(--text);display:flex;align-items:center;gap:.35rem}
-.source-list{list-style:none;display:flex;flex-direction:column;gap:.35rem}
-.source-list li{font-size:.8rem}
-.source-list a{color:var(--text-muted);font-weight:500;transition:color .2s}
-.source-list a:hover{color:var(--accent-yellow);text-decoration:none}
-.source-priority-high::before{content:"●";color:var(--accent-yellow);margin-right:.3rem;font-size:.65rem}
+/* ── Main grid ── */
+.main-content{padding:2rem 0}
+.page-grid{display:grid;grid-template-columns:1fr 340px;gap:2rem;align-items:start}
+
+/* ── Section titles ── */
+.section-title{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:1.2rem;display:flex;align-items:center;gap:.5rem;padding-bottom:.5rem;border-bottom:2px solid var(--yellow)}
+.section-title span{color:var(--text)}
+
+/* ── Summary cards ── */
+.summary-section{margin-bottom:2.5rem}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}
+.summary-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.4rem;box-shadow:var(--shadow);border-left:3px solid var(--yellow);transition:transform .15s,box-shadow .15s}
+.summary-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
+.summary-card .sc-source{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--yellow);margin-bottom:.4rem}
+.summary-card .sc-title{font-size:.95rem;font-weight:600;color:var(--text);line-height:1.35;margin-bottom:.5rem}
+.summary-card .sc-excerpt{font-size:.82rem;color:var(--muted);line-height:1.5;margin-bottom:.8rem}
+.summary-card .sc-link{font-size:.78rem;font-weight:600;color:var(--yellow)}
+
+/* ── Category sections ── */
+.cat-section{margin-bottom:2.5rem}
+.cat-header{display:flex;align-items:center;gap:.7rem;margin-bottom:1.2rem;padding-bottom:.5rem;border-bottom:2px solid var(--border)}
+.cat-emoji{font-size:1.3rem}
+.cat-name{font-size:1.1rem;font-weight:700;color:var(--text)}
+.cat-count{font-size:.75rem;background:var(--yellow);color:var(--dark);border-radius:20px;padding:.1rem .6rem;font-weight:700;margin-left:auto}
+
+/* Top 5 cards */
+.top-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-bottom:1.5rem}
+.art-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem 1.3rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.5rem;transition:transform .15s}
+.art-card:hover{transform:translateY(-2px)}
+.art-card .ac-source{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--red)}
+.art-card .ac-title{font-size:.9rem;font-weight:600;color:var(--text);line-height:1.35}
+.art-card .ac-excerpt{font-size:.8rem;color:var(--muted);line-height:1.5;flex:1}
+.art-card .ac-link{font-size:.75rem;font-weight:600;color:var(--yellow);margin-top:auto}
+
+/* Other articles list */
+.other-list{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.other-list-title{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:.8rem 1.2rem;border-bottom:1px solid var(--border);background:rgba(0,0,0,.02)}
+.other-item{display:grid;grid-template-columns:110px 1fr;gap:1rem;padding:.9rem 1.2rem;border-bottom:1px solid var(--border);align-items:start}
+.other-item:last-child{border-bottom:none}
+.other-item:hover{background:rgba(0,0,0,.02)}
+.oi-source{font-size:.7rem;font-weight:700;text-transform:uppercase;color:var(--muted);padding-top:.1rem}
+.oi-title{font-size:.85rem;font-weight:600;color:var(--text);margin-bottom:.25rem;line-height:1.3}
+.oi-excerpt{font-size:.78rem;color:var(--muted);line-height:1.45;margin-bottom:.3rem}
+.oi-link{font-size:.72rem;font-weight:600;color:var(--yellow)}
+
+/* ── Sidebar ── */
+.sidebar{}
+.sidebar-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem;margin-bottom:1.5rem;box-shadow:var(--shadow)}
+.sidebar-block .sb-title{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border)}
+.sources-list{list-style:none;display:flex;flex-direction:column;gap:.4rem}
+.sources-list li a{font-size:.82rem;color:var(--text)}
+.sources-list li a:hover{color:var(--yellow)}
+.sources-list li .sl-cat{font-size:.68rem;color:var(--muted)}
+
+/* ── Substack section ── */
+.substack-section{margin-bottom:2.5rem}
+.sub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.sub-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.4rem;box-shadow:var(--shadow);border-top:3px solid var(--red)}
+.sub-card .sc2-nl{font-size:.7rem;font-weight:700;text-transform:uppercase;color:var(--red);margin-bottom:.35rem}
+.sub-card .sc2-title{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:.5rem;line-height:1.35}
+.sub-card .sc2-excerpt{font-size:.8rem;color:var(--muted);line-height:1.5;margin-bottom:.7rem}
+.sub-card .sc2-link{font-size:.75rem;font-weight:600;color:var(--yellow)}
+.sub-empty{color:var(--muted);font-size:.85rem;padding:1rem 0}
 
 /* ── Footer ── */
-.site-footer{border-top:1px solid var(--border);padding:1.5rem;text-align:center;font-size:.8rem;color:var(--text-muted);margin-top:2rem}
-.site-footer a{color:var(--text-muted)}
-.site-footer a:hover{color:var(--accent-yellow)}
-
-/* ── Archive page ── */
-.archive-list{display:flex;flex-direction:column;gap:.6rem;max-width:600px}
-.archive-item{display:flex;align-items:center;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:.85rem 1.2rem;gap:1rem;box-shadow:var(--shadow);transition:transform .2s}
-.archive-item:hover{transform:translateX(4px)}
-.archive-item .ai-date{font-size:.95rem;font-weight:600;flex:1}
-.archive-item .ai-icon{font-size:1.1rem}
+.site-footer{background:var(--bg-header);border-top:1px solid rgba(255,255,255,.08);padding:1.5rem 0;margin-top:2rem}
+.site-footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.site-footer p{font-size:.8rem;color:#888}
+.site-footer a{color:var(--yellow);font-size:.8rem}
 
 /* ── Responsive ── */
-@media(max-width:600px){
-  .articles-grid{grid-template-columns:1fr}
-  .sources-grid{grid-template-columns:1fr}
-  .logo span.year{display:none}
+@media(max-width:1100px){.page-grid{grid-template-columns:1fr}}
+@media(max-width:700px){
+  .hero-title{font-size:1.6rem}
+  .stats-row{gap:1rem}
+  .top-grid{grid-template-columns:1fr}
+  .other-item{grid-template-columns:80px 1fr;gap:.7rem}
+  .wrap{padding:0 1rem}
 }
-.substack-note{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--accent-yellow);border-radius:8px;padding:.9rem 1.1rem;font-size:.82rem;color:var(--text-muted);margin-bottom:2rem;line-height:1.6}
-.substack-note strong{color:var(--text)}
 </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo">
+      <span class="logo-icon">☀️</span>
+      <span class="logo-text">Morning <span>Brief</span></span>
+    </div>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Archivio</a>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </div>
+</header>
 <script>
 (function(){
-  var saved = localStorage.getItem('mb-theme');
-  var sys   = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  var theme = saved || sys;
-  document.documentElement.setAttribute('data-theme', theme);
-  document.addEventListener('DOMContentLoaded', function(){
-    var btn = document.getElementById('theme-toggle');
+  var s=localStorage.getItem("mb-theme"),sys=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+  document.documentElement.setAttribute("data-theme",s||sys);
+  document.addEventListener("DOMContentLoaded",function(){
+    var btn=document.getElementById("theme-toggle");
     if(btn){
-      btn.textContent = document.documentElement.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
-      btn.addEventListener('click', function(){
-        var cur = document.documentElement.getAttribute('data-theme');
-        var next = cur === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('mb-theme', next);
-        btn.textContent = next === 'dark' ? '☀️' : '🌙';
+      btn.textContent=document.documentElement.getAttribute("data-theme")==="dark"?"☀️":"🌙";
+      btn.addEventListener("click",function(){
+        var n=document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark";
+        document.documentElement.setAttribute("data-theme",n);
+        localStorage.setItem("mb-theme",n);
+        btn.textContent=n==="dark"?"☀️":"🌙";
       });
     }
   });
 })();
 </script>
-<header class="site-header">
-  <div class="header-inner">
-    <a href="../index.html" style="text-decoration:none;color:var(--text)">
-      <div class="logo">☀️ Morning Brief<span class="year">by NextMindLab</span></div>
-    </a>
-    <nav class="header-nav">
-      <a href="index.html">📁 Archivio</a>
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
-    </nav>
-  </div>
-</header>
-<main class="container">
-  <div class="date-bar">
-    <div class="date-label">📁 Archivio</div>
-  </div>
-  <div class="archive-list">
-<a class="archive-item" href="2026-06-04.html" data-date="2026-06-04"><span class="ai-icon">📄</span><span class="ai-date">Giovedì 4 giugno 2026</span><span style="color:var(--text-muted);font-size:.8rem">2026-06-04</span></a>
-  </div>
-  
-</main>
+<div class="wrap main-content">
+  <h2 style="margin-bottom:1.5rem;font-size:1.4rem">📁 Archivio edizioni</h2>
+  <ul style="list-style:none;display:flex;flex-direction:column;gap:.7rem"><li><a href="2026-06-04.html">📄 giovedì 4 giugno 2026</a></li></ul>
+</div>
 <footer class="site-footer">
-  <a href="../index.html">← Home</a>
+  <div class="wrap"><p>Morning Brief</p><a href="../index.html">← Home</a></div>
 </footer>
 </body></html>
