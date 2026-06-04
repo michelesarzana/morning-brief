@@ -1,5 +1,677 @@
 [
   {
+    "name": "Harvard Business Review – Marketing",
+    "url": "https://hbr.org/topic/subject/marketing",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": "https://hbr.org/topic/subject/marketing/feed"
+  },
+  {
+    "name": "Forbes – Marketing & Advertising",
+    "url": "https://www.forbes.com/marketing",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": "https://www.forbes.com/marketing/feed/"
+  },
+  {
+    "name": "IPA – Institute of Practitioners in Advertising",
+    "url": "https://ipa.co.uk",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "ESOMAR",
+    "url": "https://esomar.org",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Effie Worldwide",
+    "url": "https://effie.org",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "D&AD",
+    "url": "https://www.dandad.org",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "shots",
+    "url": "https://shots.net",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "The Brand Identity",
+    "url": "https://the-brandidentity.com",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "MediaPost",
+    "url": "https://www.mediapost.com",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "AdExchanger",
+    "url": "https://www.adexchanger.com",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Fast Company – Co.Design",
+    "url": "https://www.fastcompany.com/co-design",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": "https://www.fastcompany.com/latest/rss"
+  },
+  {
+    "name": "ANA – Association of National Advertisers",
+    "url": "https://www.ana.net",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Corriere delle Comunicazioni",
+    "url": "https://www.corrierecomunicazioni.it",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Prima Online",
+    "url": "https://www.primaonline.it",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "ADCI – Art Directors Club Italiano",
+    "url": "https://www.adci.it",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Assocom",
+    "url": "https://www.assocom.it",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "UPA – Utenti Pubblicità Associati",
+    "url": "https://www.upa.it",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Cannes Lions",
+    "url": "https://www.canneslions.com",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Mumbrella",
+    "url": "https://mumbrella.com.au",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Brand Finance",
+    "url": "https://brandfinance.com",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Marketing Society",
+    "url": "https://marketingsociety.com",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "BANDT",
+    "url": "https://www.bandt.com.au",
+    "category": "Brand & Marketing",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Lurzer's Archive",
+    "url": "https://www.luerzersarchive.com",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "The Grocer",
+    "url": "https://www.thegrocer.co.uk",
+    "category": "Brand & Marketing",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Retail Gazette",
+    "url": "https://www.retailgazette.co.uk",
+    "category": "Brand & Marketing",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Communication Arts",
+    "url": "https://www.commarts.com",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "WARC – Ideas",
+    "url": "https://www.warc.com/ideas",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": "https://feeds.feedburner.com/warc-news"
+  },
+  {
+    "name": "Spot & Web",
+    "url": "https://www.spotandweb.it",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Dailyonline",
+    "url": "https://www.dailyonline.it",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "GFK Insights",
+    "url": "https://www.gfk.com/insights",
+    "category": "Brand & Marketing",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "McKinsey – Marketing & Growth",
+    "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Bain & Company – Brand",
+    "url": "https://www.bain.com/insights/topics/marketing/",
+    "category": "Brand & Marketing",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "MediaPost",
+    "url": "https://www.mediapost.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "AdExchanger",
+    "url": "https://www.adexchanger.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Prima Online",
+    "url": "https://www.primaonline.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Auditel",
+    "url": "https://www.auditel.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "UPA",
+    "url": "https://www.upa.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Programmatic Italia",
+    "url": "https://www.programmatic-italia.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Advertising Age – Media",
+    "url": "https://adage.com/section/media",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "OAAA – Out of Home Advertising Association",
+    "url": "https://oaaa.org",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Out of Home Today",
+    "url": "https://oohtoday.com",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "TVRev",
+    "url": "https://tvrev.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Broadcasting & Cable (B+C)",
+    "url": "https://www.nexttv.com",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Variety – Business",
+    "url": "https://variety.com/v/business",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": "https://variety.com/feed/"
+  },
+  {
+    "name": "FIPP",
+    "url": "https://www.fipp.com",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "WAN-IFRA",
+    "url": "https://wan-ifra.org",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": "https://wan-ifra.org/feed/"
+  },
+  {
+    "name": "Radiomonitor",
+    "url": "https://www.radiomonitor.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "IAB Tech Lab",
+    "url": "https://iabtechlab.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Dentsu Global",
+    "url": "https://www.dentsu.com/news",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "GroupM – Intelligence",
+    "url": "https://www.groupm.com/intelligence",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Zenith Media",
+    "url": "https://www.zenithmedia.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Publicis Media – Insights",
+    "url": "https://www.publicismedia.com/insights",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Kantar Media",
+    "url": "https://www.kantar.com/uki/inspiration/media",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": "https://www.kantar.com/inspiration/rss"
+  },
+  {
+    "name": "Comscore",
+    "url": "https://www.comscore.com/Insights",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "MRC – Media Rating Council",
+    "url": "https://mediaratingcouncil.org",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Think TV (Thinkbox)",
+    "url": "https://www.thinkbox.tv",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Radio Advertising Bureau",
+    "url": "https://www.rab.co.uk",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "PQ Media",
+    "url": "https://www.pqmedia.com",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Marketing Charts",
+    "url": "https://www.marketingcharts.com",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "eConsultancy – Media",
+    "url": "https://econsultancy.com/categories/media",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "SpotX / Magnite",
+    "url": "https://www.magnite.com/blog",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Osservatorio Internet Media",
+    "url": "https://www.osservatori.net/it/ricerche/osservatori-attivi/internet-media",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "FCP-Assointernet",
+    "url": "https://www.fcp.it",
+    "category": "Media & Piano Media",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Spotify Advertising",
+    "url": "https://ads.spotify.com/en-US/",
+    "category": "Media & Piano Media",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Telecoms.com",
+    "url": "https://telecoms.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "TelecomTV",
+    "url": "https://www.telecomtv.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "STL Partners",
+    "url": "https://stlpartners.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Analysys Mason",
+    "url": "https://www.analysysmason.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Omdia (Informa)",
+    "url": "https://omdia.tech.informa.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Ericsson Technology Review",
+    "url": "https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "BEREC",
+    "url": "https://www.berec.europa.eu",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "ETSI",
+    "url": "https://www.etsi.org/news-events",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Digital360",
+    "url": "https://www.digital360.it",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Tom's Hardware Italia",
+    "url": "https://www.tomshw.it",
+    "category": "TLC & Tecnologia",
+    "priority": "Bassa",
+    "rss": null
+  },
+  {
+    "name": "Computerworld Italia",
+    "url": "https://www.computerworld.it",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "ZDNet",
+    "url": "https://www.zdnet.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "The Verge – Tech",
+    "url": "https://www.theverge.com/tech",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"
+  },
+  {
+    "name": "Wired (US)",
+    "url": "https://www.wired.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://www.wired.com/feed/rss"
+  },
+  {
+    "name": "IEEE Spectrum",
+    "url": "https://spectrum.ieee.org",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "Politico – Tech",
+    "url": "https://www.politico.eu/section/technology/",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "GSMA",
+    "url": "https://www.gsma.com/newsroom",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "ETNO",
+    "url": "https://etno.eu",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "FTTH Council Europe",
+    "url": "https://www.ftthcouncil.eu",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Open Fiber – Newsroom",
+    "url": "https://www.openfiber.it/it/stampa",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "TIM – Investor Relations",
+    "url": "https://www.gruppotim.it/it/investor-relations.html",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Vodafone Group – News",
+    "url": "https://www.vodafone.com/news",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "AGCOM – Comunicati",
+    "url": "https://www.agcom.it/comunicati-stampa",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Telecompaper",
+    "url": "https://www.telecompaper.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://www.telecompaper.com/rss"
+  },
+  {
+    "name": "RCR Wireless News",
+    "url": "https://www.rcrwireless.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://www.rcrwireless.com/feed"
+  },
+  {
+    "name": "Fierce Wireless",
+    "url": "https://www.fiercewireless.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://www.fierce-network.com/wireless/rss"
+  },
+  {
+    "name": "Total Telecom",
+    "url": "https://www.totaltele.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://www.totaltele.com/rss"
+  },
+  {
+    "name": "IDATE DigiWorld",
+    "url": "https://www.idate.org",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": null
+  },
+  {
+    "name": "Broadband World Forum",
+    "url": "https://www.broadbandworldforum.com/news",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": null
+  },
+  {
+    "name": "AI Business",
+    "url": "https://aibusiness.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Alta",
+    "rss": "https://aibusiness.com/rss"
+  },
+  {
+    "name": "VentureBeat – AI",
+    "url": "https://venturebeat.com/ai",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": "https://venturebeat.com/feed/"
+  },
+  {
+    "name": "DatacenterDynamics",
+    "url": "https://www.datacenterdynamics.com",
+    "category": "TLC & Tecnologia",
+    "priority": "Media",
+    "rss": null
+  },
+  {
     "name": "Medallia Blog",
     "url": "https://www.medallia.com/blog/",
     "category": "Consumer Insight & NPS",
@@ -25,14 +697,14 @@
     "url": "https://nielseniq.com/global/en/",
     "category": "Consumer Insight & NPS",
     "priority": "Alta",
-    "rss": null
+    "rss": "https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/rss.xml"
   },
   {
     "name": "Nielsen — Audience Is Everything",
     "url": "https://www.nielsen.com/",
     "category": "Consumer Insight & NPS",
     "priority": "Alta",
-    "rss": null
+    "rss": "https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/rss.xml"
   },
   {
     "name": "Euromonitor International — Consumer Trends",
@@ -347,7 +1019,7 @@
     "url": "https://www.wired.com/",
     "category": "Social Media & Contenuti",
     "priority": "Media",
-    "rss": null
+    "rss": "https://www.wired.com/feed/rss"
   },
   {
     "name": "Sifted.eu — European Tech & Media",
@@ -522,7 +1194,7 @@
     "url": "https://www.wired.com/category/design/",
     "category": "Creatività & Design",
     "priority": "Media",
-    "rss": null
+    "rss": "https://www.wired.com/feed/rss"
   },
   {
     "name": "The FWA (Favourite Website Awards)",
@@ -690,7 +1362,7 @@
     "url": "https://www.wired.com/tag/artificial-intelligence/",
     "category": "AI & Innovazione",
     "priority": "Alta",
-    "rss": null
+    "rss": "https://www.wired.com/feed/rss"
   },
   {
     "name": "VentureBeat — AI",
