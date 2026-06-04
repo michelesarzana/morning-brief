@@ -118,6 +118,23 @@ a:hover{text-decoration:underline}
 .site-footer p{font-size:.8rem;color:#888}
 .site-footer a{color:var(--yellow);font-size:.8rem}
 
+/* ── Sources full section ── */
+.sources-full-section{margin-bottom:2.5rem}
+.flt-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem}
+.flt-btn{background:var(--bg-card);border:1px solid var(--border);border-radius:20px;padding:.35rem .9rem;font-size:.78rem;font-weight:600;color:var(--muted);cursor:pointer;transition:all .15s}
+.flt-btn:hover{border-color:var(--yellow);color:var(--text)}
+.flt-btn.active{background:var(--yellow);border-color:var(--yellow);color:var(--dark)}
+.flt-count{font-size:.7rem;opacity:.75}
+.src-table{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
+.src-row{display:grid;grid-template-columns:1fr auto;gap:1rem;padding:.75rem 1.2rem;border-bottom:1px solid var(--border);align-items:center}
+.src-row:last-child{border-bottom:none}
+.src-row:hover{background:rgba(0,0,0,.02)}
+.src-info{display:flex;align-items:center;gap:.5rem}
+.src-name{font-size:.85rem;font-weight:600;color:var(--text)}
+.src-name:hover{color:var(--yellow)}
+.src-rss{font-size:.62rem;font-weight:700;background:var(--yellow);color:var(--dark);border-radius:3px;padding:.1rem .4rem;letter-spacing:.04em}
+.src-cat{font-size:.75rem;color:var(--muted);white-space:nowrap}
+
 /* ── Responsive ── */
 @media(max-width:1100px){.page-grid{grid-template-columns:1fr}}
 @media(max-width:700px){
@@ -178,195 +195,53 @@ a:hover{text-decoration:underline}
       <section class="summary-section">
   <div class="section-title"><span>📌 Sommario del giorno</span></div>
   <div class="summary-grid"><div class="summary-card">
-  <div class="sc-source">RCR Wireless News</div>
-  <div class="sc-title">Ericsson – IBM Partnership for CSPs’ Efficiency and Competitiveness</div>
-  <div class="sc-excerpt">Ericsson is providing the back-end OSS/BSS, IBM is providing the IT services &#8211; in combination, they enable freedom of choice over CRM and user services During MWC Barcelona, RCRTech principal analyst Sean Kinney sp…</div>
-  <a class="sc-link" href="https://www.rcrwireless.com/20260604/bssoss/ericsson-mwc-2026" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="summary-card">
   <div class="sc-source">Digiday</div>
   <div class="sc-title">‘They’re going to be extinct at some point’: Why the chief AI officer is a transitional species</div>
   <div class="sc-excerpt">AI has quietly automated large swathes of how ads are bought, from walled garden auctions to the programmatic pipes that fund the open web.</div>
   <a class="sc-link" href="https://digiday.com/marketing/theyre-going-to-be-extinct-at-some-point-why-the-chief-ai-officer-is-a-transitional-species/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="summary-card">
-  <div class="sc-source">Wired — Design Section</div>
+  <div class="sc-source">Wired (US)</div>
   <div class="sc-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
   <div class="sc-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
   <a class="sc-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="summary-card">
-  <div class="sc-source">VentureBeat — AI</div>
-  <div class="sc-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
-  <div class="sc-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
-  <a class="sc-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="summary-card">
   <div class="sc-source">Fast Company – Co.Design</div>
   <div class="sc-title">McDonald’s is facing intense pushback after it did what no company should ever do</div>
   <div class="sc-excerpt">McDonald’s&nbsp;spent&nbsp;decades training customers&nbsp;that if you had a dollar, you could get a burger. Now it’s trying to redefine what “value” means, and it turns out&nbsp;customers have a very different idea. Mor…</div>
   <a class="sc-link" href="https://www.fastcompany.com/91552275/mcdonalds-facing-intense-pushback-after-did-what-no-company-should-ever-do" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="summary-card">
-  <div class="sc-source">Buffer Blog</div>
-  <div class="sc-title">13 Trending Songs on TikTok in June 2026 (+ How to Use Them)</div>
-  <div class="sc-excerpt">An up-to-date list of the most viral songs and sounds on TikTok in June 2026 — and how to use them to boost your content.</div>
-  <a class="sc-link" href="https://buffer.com/resources/trending-songs-tiktok/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="sc-source">Wired — AI Section</div>
+  <div class="sc-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
+  <div class="sc-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
+  <a class="sc-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="summary-card">
-  <div class="sc-source">Variety – Business</div>
-  <div class="sc-title">WGA Slams Scott Pelley’s Firing and CBS News’ ‘Cruel and Needless Layoffs’: ‘A Profound Contempt for the Journalism Profession’</div>
-  <div class="sc-excerpt">The head of the Writers Guild of America East union blasted Paramount-owned CBS News for recent &#8220;cruel and needless layoffs,&#8221; its firing of &#8220;60 Minutes&#8221; correspondent Scott Pelley and the shutdown…</div>
-  <a class="sc-link" href="https://variety.com/2026/tv/news/wga-slams-scott-pelley-firing-cbs-news-cruel-needless-layoffs-1236766676/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="sc-source">WAN-IFRA</div>
+  <div class="sc-title">Beyond the frontline: Addressing the hidden trauma of newsroom leadership</div>
+  <div class="sc-excerpt">The research has long told us that journalists covering conflict experience rates of PTSD comparable to frontline soldiers. What it has been slower to address is what happens to the people who manage them – who make the …</div>
+  <a class="sc-link" href="https://wan-ifra.org/2026/06/beyond-the-frontline-addressing-the-hidden-trauma-of-newsroom-leadership/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="summary-card">
+  <div class="sc-source">Wired — Design Section</div>
+  <div class="sc-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
+  <div class="sc-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
+  <a class="sc-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="summary-card">
   <div class="sc-source">Hootsuite Blog</div>
   <div class="sc-title">What are the latest Hootsuite product features? [May 2026]</div>
   <div class="sc-excerpt">Analyze campaigns with new listening tools, unlock deeper analytics, and enhance AI-powered workflows with our May updates.
 The post What are the latest Hootsuite product features? [May 2026] appeared first on Social Med…</div>
   <a class="sc-link" href="https://blog.hootsuite.com/new-features-may-2026/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="summary-card">
+  <div class="sc-source">VentureBeat — AI</div>
+  <div class="sc-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
+  <div class="sc-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
+  <a class="sc-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
 </div></div>
 </section>
       <section class="cat-section">
   <div class="cat-header">
-    <span class="cat-emoji">📱</span>
-    <span class="cat-name">TLC & Tecnologia</span>
+    <span class="cat-emoji">💬</span>
+    <span class="cat-name">Social Media & Contenuti</span>
     <span class="cat-count">20</span>
-  </div>
-  <div class="top-grid"><div class="art-card">
-  <div class="ac-source">RCR Wireless News</div>
-  <div class="ac-title">Ericsson – IBM Partnership for CSPs’ Efficiency and Competitiveness</div>
-  <div class="ac-excerpt">Ericsson is providing the back-end OSS/BSS, IBM is providing the IT services &#8211; in combination, they enable freedom of choice over CRM and user services During MWC Barcelona, RCRTech principal analyst Sean Kinney sp…</div>
-  <a class="ac-link" href="https://www.rcrwireless.com/20260604/bssoss/ericsson-mwc-2026" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">RCR Wireless News</div>
-  <div class="ac-title">Telefónica, Google Cloud boost Spain’s sovereign cloud ambitions</div>
-  <div class="ac-excerpt">An Omdia analyst told RCR Wireless News that Telefónica and Google Cloud’s new sovereign cloud partnership highlights a growing trend in Europe toward combining hyperscale cloud platforms with local operational controls …</div>
-  <a class="ac-link" href="https://www.rcrwireless.com/20260603/uncategorized/telefonica-google" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">RCR Wireless News</div>
-  <div class="ac-title">New LoRaWAN roadmap puts focus on usability in bid for ‘massive’-scale IoT</div>
-  <div class="ac-excerpt">The LoRa Alliance’s new roadmap tackles IoT’s toughest challenges: interoperability, integration and deployment simplicity. By prioritising ecosystem maturity over radio innovation, LoRaWAN is betting that usability, not…</div>
-  <a class="ac-link" href="https://www.rcrwireless.com/20260603/internet-of-things/lorawan-roadmap-usability-massive-iot" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">RCR Wireless News</div>
-  <div class="ac-title">How Gugli Is Changing the Future of Public Safety with Dan Leaf</div>
-  <div class="ac-excerpt">In this episode, Dan Leaf, Founder and CEO of GUGLI, shares how his journey from telecom integrator to technology innovator led him to build a platform focused on one critical mission: ensuring public safety communicatio…</div>
-  <a class="ac-link" href="https://www.rcrwireless.com/20260603/podcast/how-gugli-is-changing-the-future-of-public-safety-with-dan-leaf" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">RCR Wireless News</div>
-  <div class="ac-title">Making sense of the in-home network: how AI is changing broadband operations</div>
-  <div class="ac-excerpt">There is a persistent challenge at the heart of broadband operations. Service providers collect enormous amounts of network and Wi-Fi telemetry, yet still struggle to use it to improve in-home connectivity. The modern ho…</div>
-  <a class="ac-link" href="https://www.rcrwireless.com/20260603/wi-fi-2/nokia-corteca-article-sponsored" target="_blank" rel="noopener">Leggi →</a>
-</div></div>
-  <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
-  <div class="oi-source">VentureBeat – AI</div>
-  <div>
-    <div class="oi-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
-    <div class="oi-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
-    <a class="oi-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">VentureBeat – AI</div>
-  <div>
-    <div class="oi-title">Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.</div>
-    <div class="oi-excerpt">Every new AI agent your team deploys starts from scratch: no memory of how the business works, where data lives, or what rules apply. And as agentic coding tools spin up applications faster than anyone can govern them, e…</div>
-    <a class="oi-link" href="https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">VentureBeat – AI</div>
-  <div>
-    <div class="oi-title">Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary</div>
-    <div class="oi-excerpt">Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior,…</div>
-    <a class="oi-link" href="https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">VentureBeat – AI</div>
-  <div>
-    <div class="oi-title">Perplexity AI unveils hybrid local-cloud inference system at Computex 2026</div>
-    <div class="oi-excerpt">Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomo…</div>
-    <a class="oi-link" href="https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">VentureBeat – AI</div>
-  <div>
-    <div class="oi-title">Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs</div>
-    <div class="oi-excerpt">Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly c…</div>
-    <a class="oi-link" href="https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired (US)</div>
-  <div>
-    <div class="oi-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
-    <div class="oi-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
-    <a class="oi-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired (US)</div>
-  <div>
-    <div class="oi-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
-    <div class="oi-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
-    <a class="oi-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired (US)</div>
-  <div>
-    <div class="oi-title">Segway Myon Electric Bike Review: Too Smart?</div>
-    <div class="oi-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
-    <a class="oi-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired (US)</div>
-  <div>
-    <div class="oi-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
-    <div class="oi-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
-    <a class="oi-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired (US)</div>
-  <div>
-    <div class="oi-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
-    <div class="oi-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
-    <a class="oi-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Total Telecom</div>
-  <div>
-    <div class="oi-title">Alphabet issues shares to raise $80bn for AI infra</div>
-    <div class="oi-excerpt">Today, Alphabet has announced it will raise $80 billion in equity, the company’s first stock offering in over 20 years.
-The post Alphabet issues shares to raise $80bn for AI infra appeared first on Total Telecom.</div>
-    <a class="oi-link" href="https://totaltele.com/alphabet-to-raise-80bn-for-ai-infra/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Total Telecom</div>
-  <div>
-    <div class="oi-title">World Communication Awards 2026: Your chance to celebrate excellence</div>
-    <div class="oi-excerpt">For more than two decades, the World Communication Awards (WCAs) has set the global benchmark for excellence, innovation, and leadership across the telecoms industry.
-The post World Communication Awards 2026: Your chance…</div>
-    <a class="oi-link" href="https://totaltele.com/world-communication-awards-2026-your-chance-to-celebrate-excellence/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Total Telecom</div>
-  <div>
-    <div class="oi-title">Vodafone deepens connected vehicle partnership with Geely Technology</div>
-    <div class="oi-excerpt">Vodafone Business and Geely Technology Europe have extended their connected vehicle partnership.
-The post Vodafone deepens connected vehicle partnership with Geely Technology appeared first on Total Telecom.</div>
-    <a class="oi-link" href="https://totaltele.com/vodafone-deepens-connected-vehicle-partnership-with-geely-technology/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Total Telecom</div>
-  <div>
-    <div class="oi-title">SoftBank lines up €75bn data centre investment in France</div>
-    <div class="oi-excerpt">This week, SoftBank Group has announced plans to invest up to €75 billion to deploy 5 GW of AI-focused data centres in France.
-The post SoftBank lines up €75bn data centre investment in France appeared first on Total Tel…</div>
-    <a class="oi-link" href="https://totaltele.com/softbank-lines-up-e75bn-data-centre-investment-in-france/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Total Telecom</div>
-  <div>
-    <div class="oi-title">BT outlines mobile video pilots with Meta</div>
-    <div class="oi-excerpt">Press Release When we watch videos on our phones, we expect them to load instantly and play smoothly – even in the busiest places or at peak times. But as demand for video continues to grow, mobile networks can sometimes…</div>
-    <a class="oi-link" href="https://totaltele.com/bt-outlines-mobile-video-pilots-with-meta/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div></div>
-</section><section class="cat-section">
-  <div class="cat-header">
-    <span class="cat-emoji">📊</span>
-    <span class="cat-name">Consumer Insight & NPS</span>
-    <span class="cat-count">5</span>
   </div>
   <div class="top-grid"><div class="art-card">
   <div class="ac-source">Digiday</div>
@@ -394,209 +269,7 @@ The post SoftBank lines up €75bn data centre investment in France appeared fir
   <div class="ac-excerpt">Oz Etzioni, CEO and co-founder, Clinch AI has sparked a new level of optimism in advertising, with many hoping that autonomous agents will solve long-standing issues around speed, efficiency and performance. But adding m…</div>
   <a class="ac-link" href="https://digiday.com/sponsored/more-ai-agents-wont-fix-advertising/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
 </div></div>
-  
-</section><section class="cat-section">
-  <div class="cat-header">
-    <span class="cat-emoji">🎨</span>
-    <span class="cat-name">Creatività & Design</span>
-    <span class="cat-count">5</span>
-  </div>
-  <div class="top-grid"><div class="art-card">
-  <div class="ac-source">Wired — Design Section</div>
-  <div class="ac-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
-  <div class="ac-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
-  <a class="ac-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Wired — Design Section</div>
-  <div class="ac-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
-  <div class="ac-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
-  <a class="ac-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Wired — Design Section</div>
-  <div class="ac-title">Segway Myon Electric Bike Review: Too Smart?</div>
-  <div class="ac-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
-  <a class="ac-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Wired — Design Section</div>
-  <div class="ac-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
-  <div class="ac-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
-  <a class="ac-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Wired — Design Section</div>
-  <div class="ac-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
-  <div class="ac-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
-  <a class="ac-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
-</div></div>
-  
-</section><section class="cat-section">
-  <div class="cat-header">
-    <span class="cat-emoji">🤖</span>
-    <span class="cat-name">AI & Innovazione</span>
-    <span class="cat-count">10</span>
-  </div>
-  <div class="top-grid"><div class="art-card">
-  <div class="ac-source">VentureBeat — AI</div>
-  <div class="ac-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
-  <div class="ac-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
-  <a class="ac-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">VentureBeat — AI</div>
-  <div class="ac-title">Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.</div>
-  <div class="ac-excerpt">Every new AI agent your team deploys starts from scratch: no memory of how the business works, where data lives, or what rules apply. And as agentic coding tools spin up applications faster than anyone can govern them, e…</div>
-  <a class="ac-link" href="https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">VentureBeat — AI</div>
-  <div class="ac-title">Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary</div>
-  <div class="ac-excerpt">Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior,…</div>
-  <a class="ac-link" href="https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">VentureBeat — AI</div>
-  <div class="ac-title">Perplexity AI unveils hybrid local-cloud inference system at Computex 2026</div>
-  <div class="ac-excerpt">Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomo…</div>
-  <a class="ac-link" href="https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">VentureBeat — AI</div>
-  <div class="ac-title">Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs</div>
-  <div class="ac-excerpt">Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly c…</div>
-  <a class="ac-link" href="https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs" target="_blank" rel="noopener">Leggi →</a>
-</div></div>
   <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
-  <div class="oi-source">Wired — AI Section</div>
-  <div>
-    <div class="oi-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
-    <div class="oi-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
-    <a class="oi-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired — AI Section</div>
-  <div>
-    <div class="oi-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
-    <div class="oi-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
-    <a class="oi-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired — AI Section</div>
-  <div>
-    <div class="oi-title">Segway Myon Electric Bike Review: Too Smart?</div>
-    <div class="oi-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
-    <a class="oi-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired — AI Section</div>
-  <div>
-    <div class="oi-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
-    <div class="oi-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
-    <a class="oi-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Wired — AI Section</div>
-  <div>
-    <div class="oi-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
-    <div class="oi-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
-    <a class="oi-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div></div>
-</section><section class="cat-section">
-  <div class="cat-header">
-    <span class="cat-emoji">🎯</span>
-    <span class="cat-name">Brand & Marketing</span>
-    <span class="cat-count">5</span>
-  </div>
-  <div class="top-grid"><div class="art-card">
-  <div class="ac-source">Fast Company – Co.Design</div>
-  <div class="ac-title">McDonald’s is facing intense pushback after it did what no company should ever do</div>
-  <div class="ac-excerpt">McDonald’s&nbsp;spent&nbsp;decades training customers&nbsp;that if you had a dollar, you could get a burger. Now it’s trying to redefine what “value” means, and it turns out&nbsp;customers have a very different idea. Mor…</div>
-  <a class="ac-link" href="https://www.fastcompany.com/91552275/mcdonalds-facing-intense-pushback-after-did-what-no-company-should-ever-do" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Fast Company – Co.Design</div>
-  <div class="ac-title">There’s a looming copper shortage. This South Carolina startup wants to mine it from waste instead of ore</div>
-  <div class="ac-excerpt">The world faces a looming copper shortage: By 2040, demand could grow by 50%, driven by everything from electric cars to the surge in data centers. At the same time, supply is expected to drop, leaving a shortfall of 10 …</div>
-  <a class="ac-link" href="https://www.fastcompany.com/91553084/red-metals-copper-shortage-waste-mining" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Fast Company – Co.Design</div>
-  <div class="ac-title">Melinda Gates pledges another $215 million to improve women’s health around the world</div>
-  <div class="ac-excerpt">Philanthropist Melinda French Gates will expand her giving to improve women&#8217;s health globally, pledging another $215 million to support contraceptive access and maternal care, as well as initiatives aimed at middle…</div>
-  <a class="ac-link" href="https://www.fastcompany.com/91553793/melinda-gates-pledges-another-215-million-improve-womens-health-around-world" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Fast Company – Co.Design</div>
-  <div class="ac-title">Anchor enterprise innovation in purpose, not pressure</div>
-  <div class="ac-excerpt">The enterprise technology market right now is fast and loud. Every week brings a new acronym, a new vendor promise, a new &#8220;must-have&#8221; capability. And for leaders navigating this environment, the noise creates…</div>
-  <a class="ac-link" href="https://www.fastcompany.com/91553871/anchor-enterprise-innovation-in-purpose-not-pressure" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Fast Company – Co.Design</div>
-  <div class="ac-title">Everyone is lying to you about crypto</div>
-  <div class="ac-excerpt">Another crypto hit piece has arrived. In Everyone Is Lying to You for Money, actor Benjamin McKenzie—known for starring in the 2000s teen soap The O.C.—walks through a familiar narrative: Crypto is all hype, scams, and s…</div>
-  <a class="ac-link" href="https://www.fastcompany.com/91553866/everyone-is-lying-to-you-about-crypto" target="_blank" rel="noopener">Leggi →</a>
-</div></div>
-  
-</section><section class="cat-section">
-  <div class="cat-header">
-    <span class="cat-emoji">💬</span>
-    <span class="cat-name">Social Media & Contenuti</span>
-    <span class="cat-count">20</span>
-  </div>
-  <div class="top-grid"><div class="art-card">
-  <div class="ac-source">Buffer Blog</div>
-  <div class="ac-title">13 Trending Songs on TikTok in June 2026 (+ How to Use Them)</div>
-  <div class="ac-excerpt">An up-to-date list of the most viral songs and sounds on TikTok in June 2026 — and how to use them to boost your content.</div>
-  <a class="ac-link" href="https://buffer.com/resources/trending-songs-tiktok/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Buffer Blog</div>
-  <div class="ac-title">How to Get More Followers on Facebook for Free in 2026: 10 Tried-and-True Tactics</div>
-  <div class="ac-excerpt">Growing your Facebook following doesn't require a massive ad budget. These strategies can help you build an audience organically — it takes consistency and creativity, but it's totally doable.</div>
-  <a class="ac-link" href="https://buffer.com/resources/how-to-get-more-followers-on-facebook/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Buffer Blog</div>
-  <div class="ac-title">9 Tools for Social Media Automation (+ Automation Pro Tips)</div>
-  <div class="ac-excerpt">The best social media automation tools for 2026 and plenty of examples of tasks you can hand over.</div>
-  <a class="ac-link" href="https://buffer.com/resources/social-media-automation-guide/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Buffer Blog</div>
-  <div class="ac-title">Facebook Marketing Strategy: Your Ultimate 2026 Guide</div>
-  <div class="ac-excerpt">Build a Facebook marketing strategy that actually works in 2026, with step-by-step setup, content ideas, ads basics, and tips from working creators.</div>
-  <a class="ac-link" href="https://buffer.com/resources/facebook-marketing/" target="_blank" rel="noopener">Leggi →</a>
-</div><div class="art-card">
-  <div class="ac-source">Buffer Blog</div>
-  <div class="ac-title">I Built a Content Library That Lets Me Search, Analyze, and Repurpose My Buffer Posts</div>
-  <div class="ac-excerpt">How Shivani built a LinkedIn content library on Buffer's API — a searchable archive, AI chat for analysis, and a two-way loop into Buffer's Create space.</div>
-  <a class="ac-link" href="https://buffer.com/resources/linkedin-content-library/" target="_blank" rel="noopener">Leggi →</a>
-</div></div>
-  <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
-  <div class="oi-source">Digiday</div>
-  <div>
-    <div class="oi-title">‘They’re going to be extinct at some point’: Why the chief AI officer is a transitional species</div>
-    <div class="oi-excerpt">AI has quietly automated large swathes of how ads are bought, from walled garden auctions to the programmatic pipes that fund the open web.</div>
-    <a class="oi-link" href="https://digiday.com/marketing/theyre-going-to-be-extinct-at-some-point-why-the-chief-ai-officer-is-a-transitional-species/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Digiday</div>
-  <div>
-    <div class="oi-title">Why creator Lola Torres prefers the stability of affiliate marketing over brand partnerships</div>
-    <div class="oi-excerpt">Creator Lola Torres on the hustle of building her career in affiliate marketing, the challenge of creator programs, and more.</div>
-    <a class="oi-link" href="https://digiday.com/media/why-creator-lola-torres-prefers-the-stability-of-affiliate-marketing-over-brand-partnerships/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Digiday</div>
-  <div>
-    <div class="oi-title">Target has alienated Black-owned brands, founders say, as some startups vanish from its shelves</div>
-    <div class="oi-excerpt">Black founders Modern Retail spoke with said they found Target to be a frustrating wholesale partner.</div>
-    <a class="oi-link" href="https://digiday.com/marketing/target-has-alienated-black-owned-brands-founders-say-as-some-startups-vanish-from-its-shelves/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Digiday</div>
-  <div>
-    <div class="oi-title">Media Briefing: Perplexity’s new ‘trust and transparency’ pitch does little to win over publishers</div>
-    <div class="oi-excerpt">Perplexity wants to be a trusted partner to publishers, but a growing list of copyright lawsuits are making that a difficult sell.</div>
-    <a class="oi-link" href="https://digiday.com/media/media-briefing-perplexitys-new-trust-and-transparency-pitch-does-little-to-win-over-publishers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
-  <div class="oi-source">Digiday</div>
-  <div>
-    <div class="oi-title">More AI agents won’t fix advertising</div>
-    <div class="oi-excerpt">Oz Etzioni, CEO and co-founder, Clinch AI has sparked a new level of optimism in advertising, with many hoping that autonomous agents will solve long-standing issues around speed, efficiency and performance. But adding m…</div>
-    <a class="oi-link" href="https://digiday.com/sponsored/more-ai-agents-wont-fix-advertising/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
-  </div>
-</div><div class="other-item">
   <div class="oi-source">Hootsuite Blog</div>
   <div>
     <div class="oi-title">What are the latest Hootsuite product features? [May 2026]</div>
@@ -637,6 +310,41 @@ The post TikTok for business: How to grow your brand in 2026 appeared first on S
     <a class="oi-link" href="https://blog.hootsuite.com/tiktok-for-business/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div><div class="other-item">
+  <div class="oi-source">Buffer Blog</div>
+  <div>
+    <div class="oi-title">13 Trending Songs on TikTok in June 2026 (+ How to Use Them)</div>
+    <div class="oi-excerpt">An up-to-date list of the most viral songs and sounds on TikTok in June 2026 — and how to use them to boost your content.</div>
+    <a class="oi-link" href="https://buffer.com/resources/trending-songs-tiktok/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Buffer Blog</div>
+  <div>
+    <div class="oi-title">How to Get More Followers on Facebook for Free in 2026: 10 Tried-and-True Tactics</div>
+    <div class="oi-excerpt">Growing your Facebook following doesn't require a massive ad budget. These strategies can help you build an audience organically — it takes consistency and creativity, but it's totally doable.</div>
+    <a class="oi-link" href="https://buffer.com/resources/how-to-get-more-followers-on-facebook/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Buffer Blog</div>
+  <div>
+    <div class="oi-title">9 Tools for Social Media Automation (+ Automation Pro Tips)</div>
+    <div class="oi-excerpt">The best social media automation tools for 2026 and plenty of examples of tasks you can hand over.</div>
+    <a class="oi-link" href="https://buffer.com/resources/social-media-automation-guide/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Buffer Blog</div>
+  <div>
+    <div class="oi-title">Facebook Marketing Strategy: Your Ultimate 2026 Guide</div>
+    <div class="oi-excerpt">Build a Facebook marketing strategy that actually works in 2026, with step-by-step setup, content ideas, ads basics, and tips from working creators.</div>
+    <a class="oi-link" href="https://buffer.com/resources/facebook-marketing/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Buffer Blog</div>
+  <div>
+    <div class="oi-title">I Built a Content Library That Lets Me Search, Analyze, and Repurpose My Buffer Posts</div>
+    <div class="oi-excerpt">How Shivani built a LinkedIn content library on Buffer's API — a searchable archive, AI chat for analysis, and a two-way loop into Buffer's Create space.</div>
+    <a class="oi-link" href="https://buffer.com/resources/linkedin-content-library/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
   <div class="oi-source">Wired — Social & Tech Culture</div>
   <div>
     <div class="oi-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
@@ -674,83 +382,1967 @@ The post TikTok for business: How to grow your brand in 2026 appeared first on S
 </div></div>
 </section><section class="cat-section">
   <div class="cat-header">
+    <span class="cat-emoji">📱</span>
+    <span class="cat-name">TLC & Tecnologia</span>
+    <span class="cat-count">20</span>
+  </div>
+  <div class="top-grid"><div class="art-card">
+  <div class="ac-source">Wired (US)</div>
+  <div class="ac-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
+  <div class="ac-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
+  <a class="ac-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired (US)</div>
+  <div class="ac-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
+  <div class="ac-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
+  <a class="ac-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired (US)</div>
+  <div class="ac-title">Segway Myon Electric Bike Review: Too Smart?</div>
+  <div class="ac-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
+  <a class="ac-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired (US)</div>
+  <div class="ac-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
+  <div class="ac-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
+  <a class="ac-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired (US)</div>
+  <div class="ac-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
+  <div class="ac-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
+  <a class="ac-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
+</div></div>
+  <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
+  <div class="oi-source">Total Telecom</div>
+  <div>
+    <div class="oi-title">Alphabet issues shares to raise $80bn for AI infra</div>
+    <div class="oi-excerpt">Today, Alphabet has announced it will raise $80 billion in equity, the company’s first stock offering in over 20 years.
+The post Alphabet issues shares to raise $80bn for AI infra appeared first on Total Telecom.</div>
+    <a class="oi-link" href="https://totaltele.com/alphabet-to-raise-80bn-for-ai-infra/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Total Telecom</div>
+  <div>
+    <div class="oi-title">World Communication Awards 2026: Your chance to celebrate excellence</div>
+    <div class="oi-excerpt">For more than two decades, the World Communication Awards (WCAs) has set the global benchmark for excellence, innovation, and leadership across the telecoms industry.
+The post World Communication Awards 2026: Your chance…</div>
+    <a class="oi-link" href="https://totaltele.com/world-communication-awards-2026-your-chance-to-celebrate-excellence/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Total Telecom</div>
+  <div>
+    <div class="oi-title">Vodafone deepens connected vehicle partnership with Geely Technology</div>
+    <div class="oi-excerpt">Vodafone Business and Geely Technology Europe have extended their connected vehicle partnership.
+The post Vodafone deepens connected vehicle partnership with Geely Technology appeared first on Total Telecom.</div>
+    <a class="oi-link" href="https://totaltele.com/vodafone-deepens-connected-vehicle-partnership-with-geely-technology/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Total Telecom</div>
+  <div>
+    <div class="oi-title">SoftBank lines up €75bn data centre investment in France</div>
+    <div class="oi-excerpt">This week, SoftBank Group has announced plans to invest up to €75 billion to deploy 5 GW of AI-focused data centres in France.
+The post SoftBank lines up €75bn data centre investment in France appeared first on Total Tel…</div>
+    <a class="oi-link" href="https://totaltele.com/softbank-lines-up-e75bn-data-centre-investment-in-france/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">Total Telecom</div>
+  <div>
+    <div class="oi-title">BT outlines mobile video pilots with Meta</div>
+    <div class="oi-excerpt">Press Release When we watch videos on our phones, we expect them to load instantly and play smoothly – even in the busiest places or at peak times. But as demand for video continues to grow, mobile networks can sometimes…</div>
+    <a class="oi-link" href="https://totaltele.com/bt-outlines-mobile-video-pilots-with-meta/" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat – AI</div>
+  <div>
+    <div class="oi-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
+    <div class="oi-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat – AI</div>
+  <div>
+    <div class="oi-title">Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.</div>
+    <div class="oi-excerpt">Every new AI agent your team deploys starts from scratch: no memory of how the business works, where data lives, or what rules apply. And as agentic coding tools spin up applications faster than anyone can govern them, e…</div>
+    <a class="oi-link" href="https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat – AI</div>
+  <div>
+    <div class="oi-title">Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary</div>
+    <div class="oi-excerpt">Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior,…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat – AI</div>
+  <div>
+    <div class="oi-title">Perplexity AI unveils hybrid local-cloud inference system at Computex 2026</div>
+    <div class="oi-excerpt">Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomo…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat – AI</div>
+  <div>
+    <div class="oi-title">Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs</div>
+    <div class="oi-excerpt">Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly c…</div>
+    <a class="oi-link" href="https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">RCR Wireless News</div>
+  <div>
+    <div class="oi-title">Ericsson – IBM Partnership for CSPs’ Efficiency and Competitiveness</div>
+    <div class="oi-excerpt">Ericsson is providing the back-end OSS/BSS, IBM is providing the IT services &#8211; in combination, they enable freedom of choice over CRM and user services During MWC Barcelona, RCRTech principal analyst Sean Kinney sp…</div>
+    <a class="oi-link" href="https://www.rcrwireless.com/20260604/bssoss/ericsson-mwc-2026" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">RCR Wireless News</div>
+  <div>
+    <div class="oi-title">Telefónica, Google Cloud boost Spain’s sovereign cloud ambitions</div>
+    <div class="oi-excerpt">An Omdia analyst told RCR Wireless News that Telefónica and Google Cloud’s new sovereign cloud partnership highlights a growing trend in Europe toward combining hyperscale cloud platforms with local operational controls …</div>
+    <a class="oi-link" href="https://www.rcrwireless.com/20260603/uncategorized/telefonica-google" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">RCR Wireless News</div>
+  <div>
+    <div class="oi-title">New LoRaWAN roadmap puts focus on usability in bid for ‘massive’-scale IoT</div>
+    <div class="oi-excerpt">The LoRa Alliance’s new roadmap tackles IoT’s toughest challenges: interoperability, integration and deployment simplicity. By prioritising ecosystem maturity over radio innovation, LoRaWAN is betting that usability, not…</div>
+    <a class="oi-link" href="https://www.rcrwireless.com/20260603/internet-of-things/lorawan-roadmap-usability-massive-iot" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">RCR Wireless News</div>
+  <div>
+    <div class="oi-title">How Gugli Is Changing the Future of Public Safety with Dan Leaf</div>
+    <div class="oi-excerpt">In this episode, Dan Leaf, Founder and CEO of GUGLI, shares how his journey from telecom integrator to technology innovator led him to build a platform focused on one critical mission: ensuring public safety communicatio…</div>
+    <a class="oi-link" href="https://www.rcrwireless.com/20260603/podcast/how-gugli-is-changing-the-future-of-public-safety-with-dan-leaf" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">RCR Wireless News</div>
+  <div>
+    <div class="oi-title">Making sense of the in-home network: how AI is changing broadband operations</div>
+    <div class="oi-excerpt">There is a persistent challenge at the heart of broadband operations. Service providers collect enormous amounts of network and Wi-Fi telemetry, yet still struggle to use it to improve in-home connectivity. The modern ho…</div>
+    <a class="oi-link" href="https://www.rcrwireless.com/20260603/wi-fi-2/nokia-corteca-article-sponsored" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div></div>
+</section><section class="cat-section">
+  <div class="cat-header">
+    <span class="cat-emoji">🎯</span>
+    <span class="cat-name">Brand & Marketing</span>
+    <span class="cat-count">5</span>
+  </div>
+  <div class="top-grid"><div class="art-card">
+  <div class="ac-source">Fast Company – Co.Design</div>
+  <div class="ac-title">McDonald’s is facing intense pushback after it did what no company should ever do</div>
+  <div class="ac-excerpt">McDonald’s&nbsp;spent&nbsp;decades training customers&nbsp;that if you had a dollar, you could get a burger. Now it’s trying to redefine what “value” means, and it turns out&nbsp;customers have a very different idea. Mor…</div>
+  <a class="ac-link" href="https://www.fastcompany.com/91552275/mcdonalds-facing-intense-pushback-after-did-what-no-company-should-ever-do" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Fast Company – Co.Design</div>
+  <div class="ac-title">There’s a looming copper shortage. This South Carolina startup wants to mine it from waste instead of ore</div>
+  <div class="ac-excerpt">The world faces a looming copper shortage: By 2040, demand could grow by 50%, driven by everything from electric cars to the surge in data centers. At the same time, supply is expected to drop, leaving a shortfall of 10 …</div>
+  <a class="ac-link" href="https://www.fastcompany.com/91553084/red-metals-copper-shortage-waste-mining" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Fast Company – Co.Design</div>
+  <div class="ac-title">Melinda Gates pledges another $215 million to improve women’s health around the world</div>
+  <div class="ac-excerpt">Philanthropist Melinda French Gates will expand her giving to improve women&#8217;s health globally, pledging another $215 million to support contraceptive access and maternal care, as well as initiatives aimed at middle…</div>
+  <a class="ac-link" href="https://www.fastcompany.com/91553793/melinda-gates-pledges-another-215-million-improve-womens-health-around-world" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Fast Company – Co.Design</div>
+  <div class="ac-title">Anchor enterprise innovation in purpose, not pressure</div>
+  <div class="ac-excerpt">The enterprise technology market right now is fast and loud. Every week brings a new acronym, a new vendor promise, a new &#8220;must-have&#8221; capability. And for leaders navigating this environment, the noise creates…</div>
+  <a class="ac-link" href="https://www.fastcompany.com/91553871/anchor-enterprise-innovation-in-purpose-not-pressure" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Fast Company – Co.Design</div>
+  <div class="ac-title">Everyone is lying to you about crypto</div>
+  <div class="ac-excerpt">Another crypto hit piece has arrived. In Everyone Is Lying to You for Money, actor Benjamin McKenzie—known for starring in the 2000s teen soap The O.C.—walks through a familiar narrative: Crypto is all hype, scams, and s…</div>
+  <a class="ac-link" href="https://www.fastcompany.com/91553866/everyone-is-lying-to-you-about-crypto" target="_blank" rel="noopener">Leggi →</a>
+</div></div>
+  
+</section><section class="cat-section">
+  <div class="cat-header">
+    <span class="cat-emoji">🤖</span>
+    <span class="cat-name">AI & Innovazione</span>
+    <span class="cat-count">10</span>
+  </div>
+  <div class="top-grid"><div class="art-card">
+  <div class="ac-source">Wired — AI Section</div>
+  <div class="ac-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
+  <div class="ac-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
+  <a class="ac-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — AI Section</div>
+  <div class="ac-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
+  <div class="ac-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
+  <a class="ac-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — AI Section</div>
+  <div class="ac-title">Segway Myon Electric Bike Review: Too Smart?</div>
+  <div class="ac-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
+  <a class="ac-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — AI Section</div>
+  <div class="ac-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
+  <div class="ac-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
+  <a class="ac-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — AI Section</div>
+  <div class="ac-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
+  <div class="ac-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
+  <a class="ac-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
+</div></div>
+  <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
+  <div class="oi-source">VentureBeat — AI</div>
+  <div>
+    <div class="oi-title">Google's new open source Gemma 4 12B analyzes audio, video — and runs entirely locally on a typical 16GB enterprise laptop</div>
+    <div class="oi-excerpt">While many AI open source model providers are pursuing larger and more powerful models, Google is still giving attention to the smaller, more local side of the market. Today, the tech giant released Gemma 4 12B, an 11.95…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/googles-new-open-source-gemma-4-12b-analyzes-audio-video-and-runs-entirely-locally-on-a-typical-16gb-enterprise-laptop" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat — AI</div>
+  <div>
+    <div class="oi-title">Enterprise AI agents keep creating data silos. Microsoft's Build answer is Microsoft IQ and Rayfin.</div>
+    <div class="oi-excerpt">Every new AI agent your team deploys starts from scratch: no memory of how the business works, where data lives, or what rules apply. And as agentic coding tools spin up applications faster than anyone can govern them, e…</div>
+    <a class="oi-link" href="https://venturebeat.com/data/enterprise-ai-agents-keep-creating-data-silos-microsofts-build-answer-is-microsoft-iq-and-rayfin" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat — AI</div>
+  <div>
+    <div class="oi-title">Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token — but it's proprietary</div>
+    <div class="oi-excerpt">Alibaba this week released Qwen3.7-Plus, the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the prior,…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat — AI</div>
+  <div>
+    <div class="oi-title">Perplexity AI unveils hybrid local-cloud inference system at Computex 2026</div>
+    <div class="oi-excerpt">Perplexity AI, the fast-growing search startup now valued at $20 billion, unveiled what it calls the first hybrid local-server inference orchestrator at Computex 2026 on Monday night, demonstrating software that autonomo…</div>
+    <a class="oi-link" href="https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div><div class="other-item">
+  <div class="oi-source">VentureBeat — AI</div>
+  <div>
+    <div class="oi-title">Microsoft debuts Surface RTX Spark Dev Box to run large AI models without cloud costs</div>
+    <div class="oi-excerpt">Microsoft on Monday unveiled the Surface RTX Spark Dev Box, a compact desktop computer designed to let software developers run large AI models on their desks instead of paying for cloud computing — a move that directly c…</div>
+    <a class="oi-link" href="https://venturebeat.com/infrastructure/microsoft-debuts-surface-rtx-spark-dev-box-to-run-large-ai-models-without-cloud-costs" target="_blank" rel="noopener">Leggi →</a>
+  </div>
+</div></div>
+</section><section class="cat-section">
+  <div class="cat-header">
     <span class="cat-emoji">📡</span>
     <span class="cat-name">Media & Piano Media</span>
     <span class="cat-count">10</span>
   </div>
   <div class="top-grid"><div class="art-card">
-  <div class="ac-source">Variety – Business</div>
-  <div class="ac-title">WGA Slams Scott Pelley’s Firing and CBS News’ ‘Cruel and Needless Layoffs’: ‘A Profound Contempt for the Journalism Profession’</div>
-  <div class="ac-excerpt">The head of the Writers Guild of America East union blasted Paramount-owned CBS News for recent &#8220;cruel and needless layoffs,&#8221; its firing of &#8220;60 Minutes&#8221; correspondent Scott Pelley and the shutdown…</div>
-  <a class="ac-link" href="https://variety.com/2026/tv/news/wga-slams-scott-pelley-firing-cbs-news-cruel-needless-layoffs-1236766676/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="ac-source">WAN-IFRA</div>
+  <div class="ac-title">Beyond the frontline: Addressing the hidden trauma of newsroom leadership</div>
+  <div class="ac-excerpt">The research has long told us that journalists covering conflict experience rates of PTSD comparable to frontline soldiers. What it has been slower to address is what happens to the people who manage them – who make the …</div>
+  <a class="ac-link" href="https://wan-ifra.org/2026/06/beyond-the-frontline-addressing-the-hidden-trauma-of-newsroom-leadership/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="art-card">
-  <div class="ac-source">Variety – Business</div>
-  <div class="ac-title">Olivia Rodrigo Was ‘Enraged’ at Trump’s White House for Using Her Song to Promote ICE: ‘What They’re Doing Is Awful, Barbaric and Cruel’</div>
-  <div class="ac-excerpt">Olivia Rodrigo told Dazed magazine in a new interview ahead of the release of her third studio album that she was &#8220;enraged&#8221; last fall when she was scrolling on her phone and discovered that Trump&#8217;s Depa…</div>
-  <a class="ac-link" href="https://variety.com/2026/music/news/olivia-rodrigo-trump-barbaric-ice-videos-1236766637/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="ac-source">WAN-IFRA</div>
+  <div class="ac-title">How India’s Scroll is building a trusted workspace for the age of personal AI</div>
+  <div class="ac-excerpt">Scroll, a 20-person Indian newsroom, is rebuilding its platform into a three-layer trusted workspace – one designed to give academics and researchers a personalised, comprehensive, and accountable environment for engagin…</div>
+  <a class="ac-link" href="https://wan-ifra.org/2026/06/how-indias-scroll-is-building-a-trusted-workspace-for-the-age-of-personal-ai/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="art-card">
-  <div class="ac-source">Variety – Business</div>
-  <div class="ac-title">Helen Mirren, Russell Crowe, Scott Eastwood Set for Italy’s Taormina Film Festival That Unveils Lineup Mixing Crowdpleasers, More Esoteric Movies</div>
-  <div class="ac-excerpt">Helen Mirren, Russell Crowe, Scott Eastwood, and Gore Verbinsky are among top talents set to attend Italy’s upcoming Taormina Film Festival that has unveiled the lineup for its upcoming 72nd edition that will mix crowdpl…</div>
-  <a class="ac-link" href="https://variety.com/2026/film/festivals/helen-mirren-russell-crowe-taormina-festival-1236766471/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="ac-source">WAN-IFRA</div>
+  <div class="ac-title">New Innovation in Media Report unveiled in Marseille</div>
+  <div class="ac-excerpt">The 2026/2027 edition of the Innovation in Media Report was released and presented today at the World News Media Congress in Marseille. As always, this in-depth report, presented by Juan Senor, serves as a practical guid…</div>
+  <a class="ac-link" href="https://wan-ifra.org/2026/06/new-innovation-in-media-report-unveiled-in-marseille/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="art-card">
-  <div class="ac-source">Variety – Business</div>
-  <div class="ac-title">‘Savage House’ Review: Putridly Funny Black Comedy Revels in Claire Foy and Richard E. Grant’s Decay</div>
-  <div class="ac-excerpt">Faces are saved, barely, as the body goes wholly to ruin in “Savage House,” a mordantly amusing tale of pretense, profligacy and the literally maddening pressures of the English class ladder — written and directed with s…</div>
-  <a class="ac-link" href="https://variety.com/2026/film/news/savage-house-review-claire-foy-1236766295/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="ac-source">WAN-IFRA</div>
+  <div class="ac-title">Stop guessing, start measuring: USA Today on AI in the newsroom</div>
+  <div class="ac-excerpt">Nine months of interviews and research into AI evaluations have led USA Today's Jessica Davis to a blunt conclusion: the human-in-the-loop model isn't scaling, and intuition isn't a substitute for data. 
+The post Stop gu…</div>
+  <a class="ac-link" href="https://wan-ifra.org/2026/06/stop-guessing-start-measuring-usa-today-on-ai-in-the-newsroom/" target="_blank" rel="noopener">Leggi →</a>
 </div><div class="art-card">
-  <div class="ac-source">Variety – Business</div>
-  <div class="ac-title">‘Scary Movie’ Review: The Sixth ‘Scary Movie’ Has a Few Choice Gags, but Mostly It’s So Meta It’s Meh</div>
-  <div class="ac-excerpt">The script is by Marlon Wayans, Shawn Wayans, Keenen Ivory Wayans, Craig Wayans, and Rick Alvarez (the film even makes jokes about how many Wayans there are), and they have bound themselves to the Ghostface saga as if it…</div>
-  <a class="ac-link" href="https://variety.com/2026/film/reviews/scary-movie-review-anna-faris-marlon-wayans-1236765785/" target="_blank" rel="noopener">Leggi →</a>
+  <div class="ac-source">WAN-IFRA</div>
+  <div class="ac-title">WAN-IFRA forms a strategic partnership with the SPUR Coalition</div>
+  <div class="ac-excerpt">Marseille – Today, the SPUR Coalition (Standards for Publishers Usage Rights) announced at WAN-IFRA’s World News Media Congress the major expansion of 30 new members joining from across the new media industry, including …</div>
+  <a class="ac-link" href="https://wan-ifra.org/2026/06/wan-ifra-forms-a-strategic-partnership-with-the-spur-coalition/" target="_blank" rel="noopener">Leggi →</a>
 </div></div>
   <div class="other-list"><div class="other-list-title">Altre notizie</div><div class="other-item">
-  <div class="oi-source">WAN-IFRA</div>
+  <div class="oi-source">Variety – Business</div>
   <div>
-    <div class="oi-title">Beyond the frontline: Addressing the hidden trauma of newsroom leadership</div>
-    <div class="oi-excerpt">The research has long told us that journalists covering conflict experience rates of PTSD comparable to frontline soldiers. What it has been slower to address is what happens to the people who manage them – who make the …</div>
-    <a class="oi-link" href="https://wan-ifra.org/2026/06/beyond-the-frontline-addressing-the-hidden-trauma-of-newsroom-leadership/" target="_blank" rel="noopener">Leggi →</a>
+    <div class="oi-title">WGA Slams Scott Pelley’s Firing and CBS News’ ‘Cruel and Needless Layoffs’: ‘A Profound Contempt for the Journalism Profession’</div>
+    <div class="oi-excerpt">The head of the Writers Guild of America East union blasted Paramount-owned CBS News for recent &#8220;cruel and needless layoffs,&#8221; its firing of &#8220;60 Minutes&#8221; correspondent Scott Pelley and the shutdown…</div>
+    <a class="oi-link" href="https://variety.com/2026/tv/news/wga-slams-scott-pelley-firing-cbs-news-cruel-needless-layoffs-1236766676/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div><div class="other-item">
-  <div class="oi-source">WAN-IFRA</div>
+  <div class="oi-source">Variety – Business</div>
   <div>
-    <div class="oi-title">How India’s Scroll is building a trusted workspace for the age of personal AI</div>
-    <div class="oi-excerpt">Scroll, a 20-person Indian newsroom, is rebuilding its platform into a three-layer trusted workspace – one designed to give academics and researchers a personalised, comprehensive, and accountable environment for engagin…</div>
-    <a class="oi-link" href="https://wan-ifra.org/2026/06/how-indias-scroll-is-building-a-trusted-workspace-for-the-age-of-personal-ai/" target="_blank" rel="noopener">Leggi →</a>
+    <div class="oi-title">Olivia Rodrigo Was ‘Enraged’ at Trump’s White House for Using Her Song to Promote ICE: ‘What They’re Doing Is Awful, Barbaric and Cruel’</div>
+    <div class="oi-excerpt">Olivia Rodrigo told Dazed magazine in a new interview ahead of the release of her third studio album that she was &#8220;enraged&#8221; last fall when she was scrolling on her phone and discovered that Trump&#8217;s Depa…</div>
+    <a class="oi-link" href="https://variety.com/2026/music/news/olivia-rodrigo-trump-barbaric-ice-videos-1236766637/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div><div class="other-item">
-  <div class="oi-source">WAN-IFRA</div>
+  <div class="oi-source">Variety – Business</div>
   <div>
-    <div class="oi-title">New Innovation in Media Report unveiled in Marseille</div>
-    <div class="oi-excerpt">The 2026/2027 edition of the Innovation in Media Report was released and presented today at the World News Media Congress in Marseille. As always, this in-depth report, presented by Juan Senor, serves as a practical guid…</div>
-    <a class="oi-link" href="https://wan-ifra.org/2026/06/new-innovation-in-media-report-unveiled-in-marseille/" target="_blank" rel="noopener">Leggi →</a>
+    <div class="oi-title">Helen Mirren, Russell Crowe, Scott Eastwood Set for Italy’s Taormina Film Festival That Unveils Lineup Mixing Crowdpleasers, More Esoteric Movies</div>
+    <div class="oi-excerpt">Helen Mirren, Russell Crowe, Scott Eastwood, and Gore Verbinsky are among top talents set to attend Italy’s upcoming Taormina Film Festival that has unveiled the lineup for its upcoming 72nd edition that will mix crowdpl…</div>
+    <a class="oi-link" href="https://variety.com/2026/film/festivals/helen-mirren-russell-crowe-taormina-festival-1236766471/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div><div class="other-item">
-  <div class="oi-source">WAN-IFRA</div>
+  <div class="oi-source">Variety – Business</div>
   <div>
-    <div class="oi-title">Stop guessing, start measuring: USA Today on AI in the newsroom</div>
-    <div class="oi-excerpt">Nine months of interviews and research into AI evaluations have led USA Today's Jessica Davis to a blunt conclusion: the human-in-the-loop model isn't scaling, and intuition isn't a substitute for data. 
-The post Stop gu…</div>
-    <a class="oi-link" href="https://wan-ifra.org/2026/06/stop-guessing-start-measuring-usa-today-on-ai-in-the-newsroom/" target="_blank" rel="noopener">Leggi →</a>
+    <div class="oi-title">‘Savage House’ Review: Putridly Funny Black Comedy Revels in Claire Foy and Richard E. Grant’s Decay</div>
+    <div class="oi-excerpt">Faces are saved, barely, as the body goes wholly to ruin in “Savage House,” a mordantly amusing tale of pretense, profligacy and the literally maddening pressures of the English class ladder — written and directed with s…</div>
+    <a class="oi-link" href="https://variety.com/2026/film/news/savage-house-review-claire-foy-1236766295/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div><div class="other-item">
-  <div class="oi-source">WAN-IFRA</div>
+  <div class="oi-source">Variety – Business</div>
   <div>
-    <div class="oi-title">WAN-IFRA forms a strategic partnership with the SPUR Coalition</div>
-    <div class="oi-excerpt">Marseille – Today, the SPUR Coalition (Standards for Publishers Usage Rights) announced at WAN-IFRA’s World News Media Congress the major expansion of 30 new members joining from across the new media industry, including …</div>
-    <a class="oi-link" href="https://wan-ifra.org/2026/06/wan-ifra-forms-a-strategic-partnership-with-the-spur-coalition/" target="_blank" rel="noopener">Leggi →</a>
+    <div class="oi-title">‘Scary Movie’ Review: The Sixth ‘Scary Movie’ Has a Few Choice Gags, but Mostly It’s So Meta It’s Meh</div>
+    <div class="oi-excerpt">The script is by Marlon Wayans, Shawn Wayans, Keenen Ivory Wayans, Craig Wayans, and Rick Alvarez (the film even makes jokes about how many Wayans there are), and they have bound themselves to the Ghostface saga as if it…</div>
+    <a class="oi-link" href="https://variety.com/2026/film/reviews/scary-movie-review-anna-faris-marlon-wayans-1236765785/" target="_blank" rel="noopener">Leggi →</a>
   </div>
 </div></div>
+</section><section class="cat-section">
+  <div class="cat-header">
+    <span class="cat-emoji">🎨</span>
+    <span class="cat-name">Creatività & Design</span>
+    <span class="cat-count">5</span>
+  </div>
+  <div class="top-grid"><div class="art-card">
+  <div class="ac-source">Wired — Design Section</div>
+  <div class="ac-title">5 Best Smart Speakers (2026): Alexa, Google Assistant, Siri</div>
+  <div class="ac-excerpt">Looking to add a smart speaker to your house? Here’s which to choose, whether you’re an Alexa, Siri, or Google fan.</div>
+  <a class="ac-link" href="https://www.wired.com/story/best-smart-speakers/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — Design Section</div>
+  <div class="ac-title">26 Amazon Prime Perks You Might Not Be Using (2026)</div>
+  <div class="ac-excerpt">Your membership gets you more than free two-day shipping. Here’s what you may be missing ahead of Amazon Prime Day.</div>
+  <a class="ac-link" href="https://www.wired.com/story/amazon-prime-perks/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — Design Section</div>
+  <div class="ac-title">Segway Myon Electric Bike Review: Too Smart?</div>
+  <div class="ac-excerpt">From app-controlled security to electronic shifting and radar alerts, Segway’s Myon may have more tech than you need. That’s not always a bad thing.</div>
+  <a class="ac-link" href="https://www.wired.com/review/segway-myon-electric-bike/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — Design Section</div>
+  <div class="ac-title">Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’</div>
+  <div class="ac-excerpt">With $500 million in funding and a reported $2.5 billion valuation, Flourish wants to reinvent AI by putting real neurons under the microscope.</div>
+  <a class="ac-link" href="https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Wired — Design Section</div>
+  <div class="ac-title">Alpha School’s Ritzy New York City Campus Costs $65,000 a Year—but Isn’t Actually a School</div>
+  <div class="ac-excerpt">A homeschooling center in Manhattan is part of the company’s nationwide expansion. Internal documents reveal its strategy: “Opening date > safety.”</div>
+  <a class="ac-link" href="https://www.wired.com/story/alpha-schools-new-york-city-campus-isnt-actually-a-school/" target="_blank" rel="noopener">Leggi →</a>
+</div></div>
+  
+</section><section class="cat-section">
+  <div class="cat-header">
+    <span class="cat-emoji">📊</span>
+    <span class="cat-name">Consumer Insight & NPS</span>
+    <span class="cat-count">5</span>
+  </div>
+  <div class="top-grid"><div class="art-card">
+  <div class="ac-source">Digiday</div>
+  <div class="ac-title">‘They’re going to be extinct at some point’: Why the chief AI officer is a transitional species</div>
+  <div class="ac-excerpt">AI has quietly automated large swathes of how ads are bought, from walled garden auctions to the programmatic pipes that fund the open web.</div>
+  <a class="ac-link" href="https://digiday.com/marketing/theyre-going-to-be-extinct-at-some-point-why-the-chief-ai-officer-is-a-transitional-species/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Digiday</div>
+  <div class="ac-title">Why creator Lola Torres prefers the stability of affiliate marketing over brand partnerships</div>
+  <div class="ac-excerpt">Creator Lola Torres on the hustle of building her career in affiliate marketing, the challenge of creator programs, and more.</div>
+  <a class="ac-link" href="https://digiday.com/media/why-creator-lola-torres-prefers-the-stability-of-affiliate-marketing-over-brand-partnerships/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Digiday</div>
+  <div class="ac-title">Target has alienated Black-owned brands, founders say, as some startups vanish from its shelves</div>
+  <div class="ac-excerpt">Black founders Modern Retail spoke with said they found Target to be a frustrating wholesale partner.</div>
+  <a class="ac-link" href="https://digiday.com/marketing/target-has-alienated-black-owned-brands-founders-say-as-some-startups-vanish-from-its-shelves/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Digiday</div>
+  <div class="ac-title">Media Briefing: Perplexity’s new ‘trust and transparency’ pitch does little to win over publishers</div>
+  <div class="ac-excerpt">Perplexity wants to be a trusted partner to publishers, but a growing list of copyright lawsuits are making that a difficult sell.</div>
+  <a class="ac-link" href="https://digiday.com/media/media-briefing-perplexitys-new-trust-and-transparency-pitch-does-little-to-win-over-publishers/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
+</div><div class="art-card">
+  <div class="ac-source">Digiday</div>
+  <div class="ac-title">More AI agents won’t fix advertising</div>
+  <div class="ac-excerpt">Oz Etzioni, CEO and co-founder, Clinch AI has sparked a new level of optimism in advertising, with many hoping that autonomous agents will solve long-standing issues around speed, efficiency and performance. But adding m…</div>
+  <a class="ac-link" href="https://digiday.com/sponsored/more-ai-agents-wont-fix-advertising/?utm_campaign=digidaydis&utm_medium=rss&utm_source=general-rss" target="_blank" rel="noopener">Leggi →</a>
+</div></div>
+  
 </section>
       <section class="substack-section">
   <div class="section-title"><span>📬 Newsletter Substack di ieri</span></div>
   <p class="sub-empty">Nessuna newsletter pubblicata ieri.</p>
 </section>
+      <div id="sources-section"><section class="sources-full-section">
+  <div class="section-title"><span>📚 Tutte le fonti monitorate (259)</span></div>
+  <div class="flt-bar"><button class="flt-btn active" data-cat="all">Tutte</button><button class="flt-btn" data-cat="AI & Innovazione">🤖 AI & Innovazione <span class="flt-count">31</span></button><button class="flt-btn" data-cat="Brand & Marketing">🎯 Brand & Marketing <span class="flt-count">32</span></button><button class="flt-btn" data-cat="Consumer Insight & NPS">📊 Consumer Insight & NPS <span class="flt-count">31</span></button><button class="flt-btn" data-cat="Creatività & Design">🎨 Creatività & Design <span class="flt-count">31</span></button><button class="flt-btn" data-cat="Media & Piano Media">📡 Media & Piano Media <span class="flt-count">32</span></button><button class="flt-btn" data-cat="Newsletter & Substack">📬 Newsletter & Substack <span class="flt-count">39</span></button><button class="flt-btn" data-cat="Social Media & Contenuti">💬 Social Media & Contenuti <span class="flt-count">31</span></button><button class="flt-btn" data-cat="TLC & Tecnologia">📱 TLC & Tecnologia <span class="flt-count">32</span></button></div>
+  <div class="src-table"><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.agendadigitale.eu/tag/ai-act/" target="_blank" rel="noopener">AI Act Observatory (Italia)</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://aibrews.com/" target="_blank" rel="noopener">AI Brews</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://aimagazine.com/" target="_blank" rel="noopener">AI Magazine</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.anthropic.com/research" target="_blank" rel="noopener">Anthropic — Research & Blog</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://approachableai.com/top-ai-newsletters/" target="_blank" rel="noopener">Approachable AI — Top AI Newsletters</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://blog.9cv9.com/top-9-best-ai-newsletters-you-need-to-follow-and-read-in-2024/" target="_blank" rel="noopener">Blog 9CV9 — Best AI Newsletters</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://corriereinnovazione.corriere.it/" target="_blank" rel="noopener">Corriere Innovazione</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://datasciencedojo.com/blog/best-ai-newsletters-of-2024/" target="_blank" rel="noopener">Data Science Dojo — AI Blog</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://deepai.org/" target="_blank" rel="noopener">DeepAI</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.digitalocean.com/resources/articles/ai-newsletters" target="_blank" rel="noopener">DigitalOcean — AI Newsletters</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://eml.monster/blog/inbox-zero/best-ai-newsletters-of-2024" target="_blank" rel="noopener">EML Monster — Best AI Newsletters 2024</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://ai.google/" target="_blank" rel="noopener">Google AI Blog</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders" target="_blank" rel="noopener">Google Cloud — Generative AI Use Cases</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://huggingface.co/blog" target="_blank" rel="noopener">Hugging Face Blog</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.ilsole24ore.com/motori/tecnologia" target="_blank" rel="noopener">Il Sole 24 Ore — Tecnologia & AI</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.intereconomics.eu/" target="_blank" rel="noopener">Intereconomics — AI & Competition</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.istat.it/it/archivio/ict" target="_blank" rel="noopener">ISTAT — ICT e Innovazione (IT)</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://airisk.mit.edu/" target="_blank" rel="noopener">MIT AI Risk Initiative</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.morningbrew.com/topic/ai" target="_blank" rel="noopener">Morning Brew — AI Section</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://oecd.ai/" target="_blank" rel="noopener">OECD — AI Policy Observatory</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://openai.com/blog/" target="_blank" rel="noopener">OpenAI Blog</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://openai.com/research/" target="_blank" rel="noopener">OpenAI Research Page</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.researchgate.net/publication/399083598" target="_blank" rel="noopener">ResearchGate — Generative AI & Marketing</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://sifted.eu/sector/deeptech/" target="_blank" rel="noopener">Sifted.eu — AI & Innovation</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://link.springer.com/article/10.1007/s11846-023-00696-z" target="_blank" rel="noopener">Springer — Generative AI Business</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://theairundown.com/" target="_blank" rel="noopener">The AI Rundown</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.rundown.ai/" target="_blank" rel="noopener">The Rundown AI</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://venturebeat.com/ai/" target="_blank" rel="noopener">VentureBeat — AI</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.wired.com/tag/artificial-intelligence/" target="_blank" rel="noopener">Wired — AI Section</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://zapier.com/blog/best-ai-newsletters/" target="_blank" rel="noopener">Zapier Blog — AI Tools</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="AI & Innovazione">
+  <div class="src-info">
+    <a class="src-name" href="https://www.zdnet.com/topic/artificial-intelligence/" target="_blank" rel="noopener">ZDNET — AI News</a>
+    
+  </div>
+  <div class="src-cat">🤖 AI & Innovazione</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.adci.it" target="_blank" rel="noopener">ADCI – Art Directors Club Italiano</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.adexchanger.com" target="_blank" rel="noopener">AdExchanger</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.ana.net" target="_blank" rel="noopener">ANA – Association of National Advertisers</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.assocom.it" target="_blank" rel="noopener">Assocom</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.bain.com/insights/topics/marketing/" target="_blank" rel="noopener">Bain & Company – Brand</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.bandt.com.au" target="_blank" rel="noopener">BANDT</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://brandfinance.com" target="_blank" rel="noopener">Brand Finance</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.canneslions.com" target="_blank" rel="noopener">Cannes Lions</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.commarts.com" target="_blank" rel="noopener">Communication Arts</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.corrierecomunicazioni.it" target="_blank" rel="noopener">Corriere delle Comunicazioni</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.dandad.org" target="_blank" rel="noopener">D&AD</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.dailyonline.it" target="_blank" rel="noopener">Dailyonline</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://effie.org" target="_blank" rel="noopener">Effie Worldwide</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://esomar.org" target="_blank" rel="noopener">ESOMAR</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.fastcompany.com/co-design" target="_blank" rel="noopener">Fast Company – Co.Design</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.forbes.com/marketing" target="_blank" rel="noopener">Forbes – Marketing & Advertising</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.gfk.com/insights" target="_blank" rel="noopener">GFK Insights</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://hbr.org/topic/subject/marketing" target="_blank" rel="noopener">Harvard Business Review – Marketing</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://ipa.co.uk" target="_blank" rel="noopener">IPA – Institute of Practitioners in Advertising</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.luerzersarchive.com" target="_blank" rel="noopener">Lurzer's Archive</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://marketingsociety.com" target="_blank" rel="noopener">Marketing Society</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.mckinsey.com/capabilities/growth-marketing-and-sales" target="_blank" rel="noopener">McKinsey – Marketing & Growth</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.mediapost.com" target="_blank" rel="noopener">MediaPost</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://mumbrella.com.au" target="_blank" rel="noopener">Mumbrella</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.primaonline.it" target="_blank" rel="noopener">Prima Online</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.retailgazette.co.uk" target="_blank" rel="noopener">Retail Gazette</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://shots.net" target="_blank" rel="noopener">shots</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.spotandweb.it" target="_blank" rel="noopener">Spot & Web</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://the-brandidentity.com" target="_blank" rel="noopener">The Brand Identity</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thegrocer.co.uk" target="_blank" rel="noopener">The Grocer</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.upa.it" target="_blank" rel="noopener">UPA – Utenti Pubblicità Associati</a>
+    
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Brand & Marketing">
+  <div class="src-info">
+    <a class="src-name" href="https://www.warc.com/ideas" target="_blank" rel="noopener">WARC – Ideas</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎯 Brand & Marketing</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://aimagazine.com/" target="_blank" rel="noopener">AI Magazine — Customer Experience</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.ama.org/topics/customer-experience/" target="_blank" rel="noopener">AMA (American Marketing Association) — Customer Experience</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.appinio.com/en/blog/market-research/" target="_blank" rel="noopener">Appinio Blog — Market Research</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.brandwatch.com/blog/" target="_blank" rel="noopener">Brandwatch Blog</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://customerexperienceitalia.it/" target="_blank" rel="noopener">Customer Experience Italia</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://cxl.com/blog/" target="_blank" rel="noopener">CXL (Conversion XL) Institute Blog</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://digiday.com/" target="_blank" rel="noopener">Digiday</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.digitalexperience.live/" target="_blank" rel="noopener">Digital Experience Live</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.digital360.it/blog-connect/customer-retention-cose-e-come-farla-nel-modo-giusto" target="_blank" rel="noopener">Digital360 — Customer Retention</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://econsultancy.com/" target="_blank" rel="noopener">Econsultancy</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.euromonitor.com/insights/consumer-trends" target="_blank" rel="noopener">Euromonitor International — Consumer Trends</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://online.hbs.edu/blog/post/customer-experience-management" target="_blank" rel="noopener">Harvard Business School Online — Customer Experience Management</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.kantar.com/inspiration" target="_blank" rel="noopener">Kantar Insights</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://loyalty360.org/" target="_blank" rel="noopener">Loyalty360</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.marketresearch.com/" target="_blank" rel="noopener">Marketresearch.com — Euromonitor Digital Consumer Survey</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.medallia.com/blog/" target="_blank" rel="noopener">Medallia Blog</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.meltwater.com/en/blog/" target="_blank" rel="noopener">Meltwater Blog</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.morningbrew.com/marketing" target="_blank" rel="noopener">Morning Brew — Marketing</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.nielsen.com/" target="_blank" rel="noopener">Nielsen — Audience Is Everything</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://nielseniq.com/global/en/" target="_blank" rel="noopener">NielsenIQ (NIQ) — The Full View</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.pwc.com/gx/en/issues/c-suite-insights/voice-of-the-consumer-survey/2024.html" target="_blank" rel="noopener">PwC — Voice of the Consumer Survey</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://qsr.industries/" target="_blank" rel="noopener">QSR Industries — Consumer Surveys</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.questionpro.com/blog/it/" target="_blank" rel="noopener">QuestionPro Blog (IT)</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.secretkey.it/blog/customer-retention/" target="_blank" rel="noopener">SecretKey.it Blog — Customer Retention</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.seozoom.it/customer-retention/" target="_blank" rel="noopener">SEOZoom Blog — Consumer & Marketing</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.servicenow.com/it/products/customer-service-management/customer-retention-statistics.html" target="_blank" rel="noopener">ServiceNow Blog — Customer Retention Statistics</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.statista.com/" target="_blank" rel="noopener">Statista — Insights</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://experiencematters.wordpress.com/" target="_blank" rel="noopener">Temkin Group / Experience Matters Blog</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thedrum.com/" target="_blank" rel="noopener">The Drum</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.warc.com/" target="_blank" rel="noopener">WARC</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Consumer Insight & NPS">
+  <div class="src-info">
+    <a class="src-name" href="https://www.zendesk.com/blog/" target="_blank" rel="noopener">Zendesk Blog — Customer Experience</a>
+    
+  </div>
+  <div class="src-cat">📊 Consumer Insight & NPS</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://60fps.design/" target="_blank" rel="noopener">60fps.design — App UX</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://artdirection.substack.com/" target="_blank" rel="noopener">Art Direction Substack</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.awwwards.com/" target="_blank" rel="noopener">Awwwards</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://bpando.org/" target="_blank" rel="noopener">BP&O — Branding, Packaging and Opinion</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.canva.com/learn/design/" target="_blank" rel="noopener">Canva Design Blog</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://component.gallery/" target="_blank" rel="noopener">component.gallery — Design Systems</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.creativebloq.com/" target="_blank" rel="noopener">Creative Bloq</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://curations.supply/" target="_blank" rel="noopener">curations.supply — Design Library</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.designspiration.com/" target="_blank" rel="noopener">Designspiration</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.designspiration.com/" target="_blank" rel="noopener">Designspiration — Color Moods</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://dribbble.com/" target="_blank" rel="noopener">Dribbble</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://fontsinuse.com/" target="_blank" rel="noopener">Fonts In Use</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.freepik.com/" target="_blank" rel="noopener">Freepik — AI & Stock Creative</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://howik.com/best-graphic-design-blogs-to-follow-in-2024" target="_blank" rel="noopener">Howik — Graphic Design Blogs</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://hugeicons.com/" target="_blank" rel="noopener">Hugeicons</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://ilovetypography.com/" target="_blank" rel="noopener">I Love Typography</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://theinspirationgrid.com/" target="_blank" rel="noopener">Inspiration Grid</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://interbrand.com/" target="_blank" rel="noopener">Interbrand — Brand Valuation & Insights</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://landing.love/" target="_blank" rel="noopener">landing.love — Landing Page Inspiration</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://landor.com/thinking/" target="_blank" rel="noopener">Landor — Brand Strategy Blog</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://muz.li/" target="_blank" rel="noopener">Muzli (by InVision) — Design Inspiration</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.myfonts.com/" target="_blank" rel="noopener">MyFonts — Typography</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.rebrand.gallery/" target="_blank" rel="noopener">Rebrand Gallery</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://saaspo.com/" target="_blank" rel="noopener">saaspo.com — SaaS Website Gallery</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thebrandingjournal.com/" target="_blank" rel="noopener">The Branding Journal</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://thefwa.com/" target="_blank" rel="noopener">The FWA (Favourite Website Awards)</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thetechedvocate.org/the-top-20-best-graphic-design-blogs-in-2024-for-creative-inspiration/" target="_blank" rel="noopener">The TechEdvocate — Design Blogs 2024</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://uncut.wtf/" target="_blank" rel="noopener">Uncut.wtf — Contemporary Fonts</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.vecteezy.com/blog/trending/graphic-design-trends-for-2024" target="_blank" rel="noopener">Vecteezy Blog — Graphic Design Trends</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://www.wired.com/category/design/" target="_blank" rel="noopener">Wired — Design Section</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Creatività & Design">
+  <div class="src-info">
+    <a class="src-name" href="https://worldbranddesign.com/" target="_blank" rel="noopener">World Brand Design Society</a>
+    
+  </div>
+  <div class="src-cat">🎨 Creatività & Design</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.adexchanger.com" target="_blank" rel="noopener">AdExchanger</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://adage.com/section/media" target="_blank" rel="noopener">Advertising Age – Media</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.auditel.it" target="_blank" rel="noopener">Auditel</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.nexttv.com" target="_blank" rel="noopener">Broadcasting & Cable (B+C)</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.comscore.com/Insights" target="_blank" rel="noopener">Comscore</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.dentsu.com/news" target="_blank" rel="noopener">Dentsu Global</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://econsultancy.com/categories/media" target="_blank" rel="noopener">eConsultancy – Media</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.fcp.it" target="_blank" rel="noopener">FCP-Assointernet</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.fipp.com" target="_blank" rel="noopener">FIPP</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.groupm.com/intelligence" target="_blank" rel="noopener">GroupM – Intelligence</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://iabtechlab.com" target="_blank" rel="noopener">IAB Tech Lab</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.kantar.com/uki/inspiration/media" target="_blank" rel="noopener">Kantar Media</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.marketingcharts.com" target="_blank" rel="noopener">Marketing Charts</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.mediapost.com" target="_blank" rel="noopener">MediaPost</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://mediaratingcouncil.org" target="_blank" rel="noopener">MRC – Media Rating Council</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://oaaa.org" target="_blank" rel="noopener">OAAA – Out of Home Advertising Association</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.osservatori.net/it/ricerche/osservatori-attivi/internet-media" target="_blank" rel="noopener">Osservatorio Internet Media</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://oohtoday.com" target="_blank" rel="noopener">Out of Home Today</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.pqmedia.com" target="_blank" rel="noopener">PQ Media</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.primaonline.it" target="_blank" rel="noopener">Prima Online</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.programmatic-italia.it" target="_blank" rel="noopener">Programmatic Italia</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.publicismedia.com/insights" target="_blank" rel="noopener">Publicis Media – Insights</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.rab.co.uk" target="_blank" rel="noopener">Radio Advertising Bureau</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.radiomonitor.it" target="_blank" rel="noopener">Radiomonitor</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://ads.spotify.com/en-US/" target="_blank" rel="noopener">Spotify Advertising</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.magnite.com/blog" target="_blank" rel="noopener">SpotX / Magnite</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thinkbox.tv" target="_blank" rel="noopener">Think TV (Thinkbox)</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://tvrev.com" target="_blank" rel="noopener">TVRev</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.upa.it" target="_blank" rel="noopener">UPA</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://variety.com/v/business" target="_blank" rel="noopener">Variety – Business</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://wan-ifra.org" target="_blank" rel="noopener">WAN-IFRA</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Media & Piano Media">
+  <div class="src-info">
+    <a class="src-name" href="https://www.zenithmedia.com" target="_blank" rel="noopener">Zenith Media</a>
+    
+  </div>
+  <div class="src-cat">📡 Media & Piano Media</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://aiexplained.substack.com" target="_blank" rel="noopener">AI Explained</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://aiweeklyitalia.substack.com" target="_blank" rel="noopener">AI Weekly Italia</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://banzaimedia.substack.com" target="_blank" rel="noopener">Banzai Media</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://brandfinance.substack.com" target="_blank" rel="noopener">Brand Finance</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://caoscalmo.substack.com" target="_blank" rel="noopener">Caos Calmo</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://creativitaebrand.substack.com" target="_blank" rel="noopener">Creatività e Brand</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://curioos.substack.com" target="_blank" rel="noopener">Curioos Digest</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://digitalia.substack.com" target="_blank" rel="noopener">Digitalia</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://futuroprossimo.substack.com" target="_blank" rel="noopener">Futuro Prossimo</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://ilpost.substack.com" target="_blank" rel="noopener">Il Post</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://iltascabile.substack.com" target="_blank" rel="noopener">Il Tascabile</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://innovazionememedia.substack.com" target="_blank" rel="noopener">Innovazione e Media</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://laggiornamento.substack.com" target="_blank" rel="noopener">L'Aggiornamento</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://lautore.substack.com" target="_blank" rel="noopener">L'Autore</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://limes.substack.com" target="_blank" rel="noopener">Limes - Rivista Italiana di Geopolitica</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://mediamente.substack.com" target="_blank" rel="noopener">Media Mente</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://morningfuture.substack.com" target="_blank" rel="noopener">Morning Future</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://novabriefing.substack.com" target="_blank" rel="noopener">NovaBriefing</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://pasqualeborriello.substack.com" target="_blank" rel="noopener">Pasquale Borriello</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://puntidivista.substack.com" target="_blank" rel="noopener">Punti di Vista</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://riccardopirrone.substack.com" target="_blank" rel="noopener">Riccardo Pirrone</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://sebastianbarros.substack.com" target="_blank" rel="noopener">Sebastian Barros Newsletter</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://sentieridigitali.substack.com" target="_blank" rel="noopener">Sentieri Digitali</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://slownews.substack.com" target="_blank" rel="noopener">Slow News</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://sogniamericani.substack.com" target="_blank" rel="noopener">Sogni Americani</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://solostorietristi.substack.com" target="_blank" rel="noopener">Solo Storie Tristi</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://storiediStartup.substack.com" target="_blank" rel="noopener">Storie di Startup</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://technicismi.substack.com" target="_blank" rel="noopener">Technicismi</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://thecmobrief.substack.com" target="_blank" rel="noopener">The CMO Brief</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://theitalianletter.substack.com" target="_blank" rel="noopener">The Italian Letter</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://substack.substack.com" target="_blank" rel="noopener">The Substack Post</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://italianstartups.substack.com" target="_blank" rel="noopener">The Week in Italian Startups</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://thinkwithgoogleit.substack.com" target="_blank" rel="noopener">Think with Google Italia</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://truecommitment.substack.com" target="_blank" rel="noopener">TRUE COMMITMENT</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://unagoccia.substack.com" target="_blank" rel="noopener">Una Goccia</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://undici.substack.com" target="_blank" rel="noopener">Undici</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://vincos.substack.com" target="_blank" rel="noopener">Vincos Newsletter</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://whatthezez.substack.com" target="_blank" rel="noopener">What The Zez</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Newsletter & Substack">
+  <div class="src-info">
+    <a class="src-name" href="https://wired.substack.com" target="_blank" rel="noopener">Wired Italia Newsletter</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📬 Newsletter & Substack</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.agendadigitale.eu/" target="_blank" rel="noopener">Agenda Digitale — Social Media & Digital</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://creatorswithinfluence.com/" target="_blank" rel="noopener">American Influencer Council — Creator Trend Report</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.auditel.it/" target="_blank" rel="noopener">Auditel — Media Measurement (IT)</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.brandwatch.com/blog/" target="_blank" rel="noopener">Brandwatch Blog</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://buffer.com/resources/" target="_blank" rel="noopener">Buffer Blog</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.creator.co/blog/" target="_blank" rel="noopener">Creator.co Blog</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://creators.meta.com/" target="_blank" rel="noopener">Creators.meta.com (Meta for Creators)</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://digiday.com/" target="_blank" rel="noopener">Digiday</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.digitalmarketingcommunity.com/" target="_blank" rel="noopener">Digital Marketing Community — Social Media Reports</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://econsultancy.com/" target="_blank" rel="noopener">Econsultancy</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.focusmarketingandpr.com/blog/" target="_blank" rel="noopener">Focus Marketing & PR Blog</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://creators.google/en-us/" target="_blank" rel="noopener">Google for Creators</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://greenlitcontent.com/resources/social-media-strategy" target="_blank" rel="noopener">Greenlitcontent — Social Media Strategy Guide</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://blog.hootsuite.com/" target="_blank" rel="noopener">Hootsuite Blog</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://iabeurope.eu/" target="_blank" rel="noopener">IAB Europe — Digital Advertising</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://creators.instagram.com/" target="_blank" rel="noopener">Instagram for Creators</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.istat.it/it/archivio/ict" target="_blank" rel="noopener">Istituto Nazionale di Statistica (ISTAT) — ICT e Social</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.key4biz.it/" target="_blank" rel="noopener">Key4Biz — Media & Digital</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.lennysnewsletter.com/" target="_blank" rel="noopener">Lenny's Newsletter</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.meltwater.com/en/blog/top-social-listening-tools" target="_blank" rel="noopener">Meltwater Blog — Social Media</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://milesocial.com/" target="_blank" rel="noopener">Milesocial — Social Media Reports</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.morningbrew.com/marketing" target="_blank" rel="noopener">Morning Brew — Marketing Newsletter</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://sifted.eu/" target="_blank" rel="noopener">Sifted.eu — European Tech & Media</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.socialnative.com/articles/" target="_blank" rel="noopener">Socialnative Blog</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.sprinklr.com/blog/" target="_blank" rel="noopener">Sprinklr Blog — Social Media CX</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.thedrum.com/" target="_blank" rel="noopener">The Drum</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.voxburner.com/" target="_blank" rel="noopener">Voxburner (Youth Lab) — Youth Trends</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.websitebuilderexpert.com/news/social-media-newsletters/" target="_blank" rel="noopener">WebsiteBuilderExpert — Social Media Newsletters Guide</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.wired.com/" target="_blank" rel="noopener">Wired — Social & Tech Culture</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.youtube.com/c/youtubecreators" target="_blank" rel="noopener">YouTube for Creators</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="Social Media & Contenuti">
+  <div class="src-info">
+    <a class="src-name" href="https://www.zdnet.com/" target="_blank" rel="noopener">ZDNET — AI & Social Media</a>
+    
+  </div>
+  <div class="src-cat">💬 Social Media & Contenuti</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.agcom.it/comunicati-stampa" target="_blank" rel="noopener">AGCOM – Comunicati</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://aibusiness.com" target="_blank" rel="noopener">AI Business</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.analysysmason.com" target="_blank" rel="noopener">Analysys Mason</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.berec.europa.eu" target="_blank" rel="noopener">BEREC</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.broadbandworldforum.com/news" target="_blank" rel="noopener">Broadband World Forum</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.computerworld.it" target="_blank" rel="noopener">Computerworld Italia</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.datacenterdynamics.com" target="_blank" rel="noopener">DatacenterDynamics</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.digital360.it" target="_blank" rel="noopener">Digital360</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review" target="_blank" rel="noopener">Ericsson Technology Review</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://etno.eu" target="_blank" rel="noopener">ETNO</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.etsi.org/news-events" target="_blank" rel="noopener">ETSI</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.fiercewireless.com" target="_blank" rel="noopener">Fierce Wireless</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.ftthcouncil.eu" target="_blank" rel="noopener">FTTH Council Europe</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.gsma.com/newsroom" target="_blank" rel="noopener">GSMA</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.idate.org" target="_blank" rel="noopener">IDATE DigiWorld</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://spectrum.ieee.org" target="_blank" rel="noopener">IEEE Spectrum</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://omdia.tech.informa.com" target="_blank" rel="noopener">Omdia (Informa)</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.openfiber.it/it/stampa" target="_blank" rel="noopener">Open Fiber – Newsroom</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.politico.eu/section/technology/" target="_blank" rel="noopener">Politico – Tech</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.rcrwireless.com" target="_blank" rel="noopener">RCR Wireless News</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://stlpartners.com" target="_blank" rel="noopener">STL Partners</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.telecompaper.com" target="_blank" rel="noopener">Telecompaper</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://telecoms.com" target="_blank" rel="noopener">Telecoms.com</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.telecomtv.com" target="_blank" rel="noopener">TelecomTV</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.theverge.com/tech" target="_blank" rel="noopener">The Verge – Tech</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.gruppotim.it/it/investor-relations.html" target="_blank" rel="noopener">TIM – Investor Relations</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.tomshw.it" target="_blank" rel="noopener">Tom's Hardware Italia</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.totaltele.com" target="_blank" rel="noopener">Total Telecom</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://venturebeat.com/ai" target="_blank" rel="noopener">VentureBeat – AI</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.vodafone.com/news" target="_blank" rel="noopener">Vodafone Group – News</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.wired.com" target="_blank" rel="noopener">Wired (US)</a>
+    <span class="src-rss">RSS</span>
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div><div class="src-row" data-cat="TLC & Tecnologia">
+  <div class="src-info">
+    <a class="src-name" href="https://www.zdnet.com" target="_blank" rel="noopener">ZDNet</a>
+    
+  </div>
+  <div class="src-cat">📱 TLC & Tecnologia</div>
+</div></div>
+  <script>
+(function(){
+  var btns = document.querySelectorAll(".flt-btn");
+  var rows = document.querySelectorAll(".src-row");
+  btns.forEach(function(btn){
+    btn.addEventListener("click", function(){
+      btns.forEach(function(b){ b.classList.remove("active"); });
+      btn.classList.add("active");
+      var cat = btn.getAttribute("data-cat");
+      rows.forEach(function(r){
+        r.style.display = (cat === "all" || r.getAttribute("data-cat") === cat) ? "" : "none";
+      });
+    });
+  });
+})();
+</script>
+</section></div>
     </main>
     <aside class="sidebar">
   <div class="sidebar-block">
-    <div class="sb-title">📚 Fonti monitorate (259)</div>
-    <ul class="sources-list"><li><a href="https://hbr.org/topic/subject/marketing" target="_blank" rel="noopener">Harvard Business Review – Marketing</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://www.forbes.com/marketing" target="_blank" rel="noopener">Forbes – Marketing & Advertising</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://ipa.co.uk" target="_blank" rel="noopener">IPA – Institute of Practitioners in Advertising</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://esomar.org" target="_blank" rel="noopener">ESOMAR</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://effie.org" target="_blank" rel="noopener">Effie Worldwide</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://www.mediapost.com" target="_blank" rel="noopener">MediaPost</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.adexchanger.com" target="_blank" rel="noopener">AdExchanger</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.primaonline.it" target="_blank" rel="noopener">Prima Online</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.auditel.it" target="_blank" rel="noopener">Auditel</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.upa.it" target="_blank" rel="noopener">UPA</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://telecoms.com" target="_blank" rel="noopener">Telecoms.com</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://www.telecomtv.com" target="_blank" rel="noopener">TelecomTV</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://stlpartners.com" target="_blank" rel="noopener">STL Partners</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://www.analysysmason.com" target="_blank" rel="noopener">Analysys Mason</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://omdia.tech.informa.com" target="_blank" rel="noopener">Omdia (Informa)</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://www.medallia.com/blog/" target="_blank" rel="noopener">Medallia Blog</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.kantar.com/inspiration" target="_blank" rel="noopener">Kantar Insights</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.warc.com/" target="_blank" rel="noopener">WARC</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://nielseniq.com/global/en/" target="_blank" rel="noopener">NielsenIQ (NIQ) — The Full View</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.nielsen.com/" target="_blank" rel="noopener">Nielsen — Audience Is Everything</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://digiday.com/" target="_blank" rel="noopener">Digiday</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.thedrum.com/" target="_blank" rel="noopener">The Drum</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://econsultancy.com/" target="_blank" rel="noopener">Econsultancy</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.brandwatch.com/blog/" target="_blank" rel="noopener">Brandwatch Blog</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.meltwater.com/en/blog/top-social-listening-tools" target="_blank" rel="noopener">Meltwater Blog — Social Media</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.thebrandingjournal.com/" target="_blank" rel="noopener">The Branding Journal</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://bpando.org/" target="_blank" rel="noopener">BP&O — Branding, Packaging and Opinion</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://worldbranddesign.com/" target="_blank" rel="noopener">World Brand Design Society</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://www.rebrand.gallery/" target="_blank" rel="noopener">Rebrand Gallery</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://www.awwwards.com/" target="_blank" rel="noopener">Awwwards</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://www.rundown.ai/" target="_blank" rel="noopener">The Rundown AI</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://www.anthropic.com/research" target="_blank" rel="noopener">Anthropic — Research & Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://openai.com/blog/" target="_blank" rel="noopener">OpenAI Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://huggingface.co/blog" target="_blank" rel="noopener">Hugging Face Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://ai.google/" target="_blank" rel="noopener">Google AI Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://ilpost.substack.com" target="_blank" rel="noopener">Il Post</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://slownews.substack.com" target="_blank" rel="noopener">Slow News</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://laggiornamento.substack.com" target="_blank" rel="noopener">L'Aggiornamento</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://morningfuture.substack.com" target="_blank" rel="noopener">Morning Future</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://undici.substack.com" target="_blank" rel="noopener">Undici</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li></ul>
+    <div class="sb-title">📚 Fonti (259) <a href="#sources-section" style="font-size:.7rem;font-weight:600;float:right;color:var(--yellow)">Vedi tutte →</a></div>
+    <ul class="sources-list"><li><a href="https://www.rundown.ai/" target="_blank" rel="noopener">The Rundown AI</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://www.anthropic.com/research" target="_blank" rel="noopener">Anthropic — Research & Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://openai.com/blog/" target="_blank" rel="noopener">OpenAI Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://huggingface.co/blog" target="_blank" rel="noopener">Hugging Face Blog</a><br><span class="sl-cat">🤖 AI & Innovazione</span></li><li><a href="https://hbr.org/topic/subject/marketing" target="_blank" rel="noopener">Harvard Business Review – Marketing</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://www.forbes.com/marketing" target="_blank" rel="noopener">Forbes – Marketing & Advertising</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://ipa.co.uk" target="_blank" rel="noopener">IPA – Institute of Practitioners in Advertising</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://esomar.org" target="_blank" rel="noopener">ESOMAR</a><br><span class="sl-cat">🎯 Brand & Marketing</span></li><li><a href="https://www.medallia.com/blog/" target="_blank" rel="noopener">Medallia Blog</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.kantar.com/inspiration" target="_blank" rel="noopener">Kantar Insights</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.warc.com/" target="_blank" rel="noopener">WARC</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://nielseniq.com/global/en/" target="_blank" rel="noopener">NielsenIQ (NIQ) — The Full View</a><br><span class="sl-cat">📊 Consumer Insight & NPS</span></li><li><a href="https://www.thebrandingjournal.com/" target="_blank" rel="noopener">The Branding Journal</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://bpando.org/" target="_blank" rel="noopener">BP&O — Branding, Packaging and Opinion</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://worldbranddesign.com/" target="_blank" rel="noopener">World Brand Design Society</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://www.rebrand.gallery/" target="_blank" rel="noopener">Rebrand Gallery</a><br><span class="sl-cat">🎨 Creatività & Design</span></li><li><a href="https://www.mediapost.com" target="_blank" rel="noopener">MediaPost</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.adexchanger.com" target="_blank" rel="noopener">AdExchanger</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.primaonline.it" target="_blank" rel="noopener">Prima Online</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://www.auditel.it" target="_blank" rel="noopener">Auditel</a><br><span class="sl-cat">📡 Media & Piano Media</span></li><li><a href="https://ilpost.substack.com" target="_blank" rel="noopener">Il Post</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://slownews.substack.com" target="_blank" rel="noopener">Slow News</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://laggiornamento.substack.com" target="_blank" rel="noopener">L'Aggiornamento</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://morningfuture.substack.com" target="_blank" rel="noopener">Morning Future</a><br><span class="sl-cat">📬 Newsletter & Substack</span></li><li><a href="https://digiday.com/" target="_blank" rel="noopener">Digiday</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.thedrum.com/" target="_blank" rel="noopener">The Drum</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://econsultancy.com/" target="_blank" rel="noopener">Econsultancy</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://www.brandwatch.com/blog/" target="_blank" rel="noopener">Brandwatch Blog</a><br><span class="sl-cat">💬 Social Media & Contenuti</span></li><li><a href="https://telecoms.com" target="_blank" rel="noopener">Telecoms.com</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://www.telecomtv.com" target="_blank" rel="noopener">TelecomTV</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://stlpartners.com" target="_blank" rel="noopener">STL Partners</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li><li><a href="https://www.analysysmason.com" target="_blank" rel="noopener">Analysys Mason</a><br><span class="sl-cat">📱 TLC & Tecnologia</span></li></ul>
   </div>
 </aside>
   </div>
